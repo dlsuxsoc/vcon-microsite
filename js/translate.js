@@ -2,7 +2,7 @@
     script to configure language
     calls language.json to fetch desired lang-mode
 */
-
+/*
 $(document).ready(function(){
     var dum;
     $.get("json/dummy.json", function(data){
@@ -10,3 +10,4 @@ $(document).ready(function(){
         console.log(dum.username);
     });
 });
+*/

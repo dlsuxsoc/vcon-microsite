@@ -16,13 +16,20 @@
 }
 
 header{
-    padding: 60px 5%;
+    padding: 60px 10%;
     background-color: black;
+    box-sizing: border-box;
+}
+
+footer{
+    padding: 60px 10%;
+    background-color: #ccc;
+    box-sizing: border-box;
 }
 
 /* section with white background by default */
 section{
-    padding: 40px 5%;
+    padding: 40px 10%;
     background-color: white;
 }
 
