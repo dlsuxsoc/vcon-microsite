@@ -1,0 +1,39 @@
+/* wrapper stylesheet */
+
+/* NOTE: WHAT TO USE?
+ *
+ * <section>...</section>
+ * <section class="theme-highlighted">...</section>
+ * <section class="light-highlighted">...</section>
+ * <section class="dark-highlighted">...</section>
+ *
+ */
+
+:root{
+    --theme-wrapper-main-bg: #1EBA9F;
+    --theme-wrapper-dark-bg: #637484;
+    --theme-wrapper-light-bg: #D0D7DC;
+}
+
+header{
+    padding: 60px 5%;
+    background-color: black;
+}
+
+/* section with white background by default */
+section{
+    padding: 40px 5%;
+    background-color: white;
+}
+
+section.theme-highlighted{
+    background-color: var(--theme-wrapper-main-bg);
+}
+
+section.light-highlighted{
+    background-color: var(--theme-wrapper-light-bg);
+}
+
+section.dark-highlighted{
+    background-color: var(--theme-wrapper-dark-bg);
+}
