@@ -18,8 +18,8 @@
  */
 
 :root{
-    --theme-button-color: #1EBA9F;
-    --theme-button-accent: #1EA18A;
+    --theme-button-color: #319bb7;
+    --theme-button-accent: #328396;
     --theme-button-dark-color: #637484;
     --theme-button-dark-accent: #4C5A68;
     --theme-button-light-color: white;
@@ -43,7 +43,7 @@ button, input[type="button"], input[type="submit"]{
     background-color: var(--theme-button-color);
     border: thin solid var(--theme-button-color);
     color: var(--theme-button-color-value);
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Nunito', sans-serif;
     cursor: pointer;
     border-radius: 3px;
     font-size: 0.7em;
