@@ -17,6 +17,12 @@
     margin-right: -50vw;
 }
 
+#festive-logo{
+    display: block;
+    margin: 5em 0;
+    width: 50%;
+}
+
 
 /* FONT-AWESOME STYLESHEET */
 i.fa{
