@@ -27,3 +27,9 @@ items are aligned vertically at the center by default
     justify-content: space-around;
     align-items: center;
 }
+
+.flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

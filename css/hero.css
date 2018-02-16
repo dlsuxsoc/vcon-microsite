@@ -1,3 +1,36 @@
 /*
     stylesheet for the hero section of the page
 */
+
+#white-logo{
+    margin-right: 3em;
+}
+
+#tagline{
+    text-transform: none;
+}
+
+#countdown{
+    display: flex;
+    justify-content: flex-start;
+    padding: 2em 0;
+}
+
+#countdown > div{
+    margin-right: 3em;
+    display: flex;
+    flex-direction: column;
+}
+
+#countdown > div h1, #countdown > div span{
+    color: white;
+    text-align: center;
+}
+
+#countdown > div h1{
+    font-size: 3em;
+}
+
+#hero-content{
+    padding: 4em 0;
+}
