@@ -28,6 +28,12 @@ $(document).ready(function () {
             if(x === '0'){
                 document.getElementById('tagline').innerHTML = "Look no further.<br/>Keep going and change your<br/>life forever.";
                 document.getElementById('buy_ticket_btn').innerHTML = "BUY TICKETS";
+                document.getElementById('about_headnote').innerHTML = "ABOUT";
+                document.getElementById('history_headnote').innerHTML = "HISTORY";
+                document.getElementById('weareone_headnote').innerHTML = "WE ARE ONE";
+                document.getElementById('news_headnote').innerHTML = "NEWS & UPDATES";
+                document.getElementById('faqs_headnote').innerHTML = "FAQs";
+                document.getElementById('contact_headnote').innerHTML = "CONTACT US";
                 
                 /* WHO, WHAT, WHY*/
                 document.getElementById('about-title').innerHTML = "WHO, WHAT, WHY";
@@ -133,6 +139,13 @@ $(document).ready(function () {
             if(x === '1'){
                 document.getElementById('tagline').innerHTML = "NE CHERCHEZ PAS PLUS LOIN.<br/>CONTINUEZ ET CHANGEZ VOTRE VIE POUR TOUJOURS.";
                 document.getElementById('buy_ticket_btn').innerHTML = "ACHETER UN BILLET";
+                document.getElementById('about_headnote').innerHTML = "ABOUT";
+                document.getElementById('history_headnote').innerHTML = "HISTORY";
+                document.getElementById('weareone_headnote').innerHTML = "NOUS SOMMES UN";
+                document.getElementById('news_headnote').innerHTML = "ACTUALITÉS ET MISES À JOUR";
+                document.getElementById('faqs_headnote').innerHTML = "FAQs";
+                document.getElementById('contact_headnote').innerHTML = "NOUS CONTACTER";
+                
                 
                 /* WHO, WHAT, WHY*/
                 document.getElementById('about-title').innerHTML = "QUI, QUOI, POURQUOI";
