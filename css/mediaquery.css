@@ -9,28 +9,7 @@
 .container {
     margin-left: auto;
     margin-right: auto;
-    /*padding-left: 15px;
-    padding-right: 15px;*/
 }
-
-/*
-@media (min-width: 768px) {
-    .container {
-        width: 750px;
-    }
-}
-
-@media (min-width: 992px) {
-    .container {
-        width: 970px;
-    }
-}
-
-@media (min-width: 1200px) {
-    .container {
-        width: 1170px;
-    }
-}*/
 
 /* Row */
 
@@ -197,6 +176,24 @@
     grid-column-start: 12;
     grid-column-end: span 1;
     grid-row: 1;
+}
+
+
+/* Responsive nav bar */
+@media (max-width: 600px) {
+    #hamburger-icon {
+        display: block;
+    }
+    
+    #nav-items {
+        display: none;
+    }
+}
+
+@media (min-width: 600px) {
+    #hamburger-icon {
+        display: none;
+    }
 }
 
 /* Columns for small devices (tablets) */
