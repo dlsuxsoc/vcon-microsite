@@ -1,12 +1,22 @@
 /*
     stylesheet for the everything about V-Malaysia section
 */
+
+
+/*Whitespace testing*/ 
+* {
+    border: 1px solid red;
+}
+
+
 #about {
-    padding: 120px 10%;
+    padding-top: 70px;
+    padding-bottom: 0;
+    margin: auto;
 }
 
 #about > div > div h3 {
-    padding-top: 30px;
+    /*padding-top: 30px;*/
     font-size: 3em;
     width: 11em;
 }
@@ -32,10 +42,10 @@
 #about > div > div:nth-child(2) p{
     padding-top: 0px;
     width: 32em;
+    margin-left:auto;
     text-align: right;
 }
 
 #about > div > div:nth-child(2) h3 {
-    padding: 20px 0px 0px 0px;
     text-align: right;
 }
