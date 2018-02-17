@@ -137,7 +137,7 @@ $(document).ready(function () {
             
             //////////*  FRENCH  *//////////
             if(x === '1'){
-                document.getElementById('tagline').innerHTML = "NE CHERCHEZ PAS PLUS LOIN.<br/>CONTINUEZ ET CHANGEZ VOTRE VIE POUR TOUJOURS.";
+                document.getElementById('tagline').innerHTML = "Ne cherchez pas plus loin.<br/>Continuez et changez votre vie <br/>pour toujours.";
                 document.getElementById('buy_ticket_btn').innerHTML = "ACHETER UN BILLET";
                 document.getElementById('about_headnote').innerHTML = "ABOUT";
                 document.getElementById('history_headnote').innerHTML = "HISTORY";
