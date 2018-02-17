@@ -79,7 +79,7 @@
                 </ul>
                 <ul>
                     <li>
-                        <select class="white">
+                        <select id="chosen_lang" class="white">
                             <option value="0">English</option>
                             <option value="1">Arabic</option>
                             <option value="2">Turkish</option>
@@ -115,19 +115,19 @@
                             <span>Secs</span>
                         </div>
                     </div>
-                    <button>BUY TICKETS</button>
+                    <button id="switch_lang">BUY TICKETS</button>
                 </div>
             </div>
         </header>
 
         <!-- ALL ABOUT V-MALAYSIA 2018 -->
         <section id="about">
-            <h1 id="about-title">WHO, WHAT, WHY</h1>
+            <h1 id="about-title" >WHO, WHAT, WHY</h1>
             <div>
                 <div>
                     <div>
-                        <h3><b>WHAT</b> is V-Con?</h3>
-                        <p>
+                        <h3 id="about-what"><b>WHAT</b> is V-Con?</h3>
+                        <p  id="about-what-p">
                             V-Con is an experience that is often equated with the words unbelievable, magical, and life-changing. Held in nine different countries since its conception in 2001, the V-Convention is an annual grand gathering hosted by The V, where you can expect a series of world-class motivational speeches and training sessions that are essential for professional networkers. State-of-the-art exhibitions are also set up for those who wish to get exclusive merchandise, know more about products, and avail of special promos.
                         </p>
                     <div>
@@ -137,8 +137,8 @@
                 <div>
                     <img src="assets/svg/asset-board_one-people.svg" id="one-people" />
                     <div>
-                        <h3><b>WHO</b> goes to V-Con?</h3>
-                        <p>
+                        <h3 id="about-who"><b>WHO</b> goes to V-Con?</h3>
+                        <p  id="about-who-p">
                             It is open to all IRs of QNET who wish to gain a better sense of their network marketing journey. To date, V-Con has gathered thousands of attendees from different parts of world, with record-breaking numbers to boot.
                         </p>
                     </div>
@@ -146,8 +146,8 @@
 
                 <div>
                     <div>
-                        <h3><b>WHY</b> do you need to be at V-Con?</h3>
-                        <p>
+                        <h3 id="about-why"><b>WHY</b> do you need to be at V-Con?</h3>
+                        <p   id="about-why-p">
                             As a partner who will be with you throughout your network marketing journey, The V aims to maximize this 5-day convention to help you claim your ultimate goal of gaining financial freedom. Whether you just signed up or have been in the business for several years, you have no better decision but to come home to V-Con and realize your limitless potential for greatness.
                         </p>
                     </div>
@@ -316,10 +316,10 @@
             <!-- WE ARE ONE & BUY TICKETS CALL-TO-ACTION -->
             <div id="call-to-action">
                 <h1 id="cta-title">WE ARE ONE</h1>
-                <p>
+                <p id="cta-par">
                     Get to know the family. Enter our home. Follow the calling. If you must make one great decision today, let this be THE ONE. Book your V-Malaysia 2018 tickets here!
                 </p>
-
+                
                 <button class="hallow-white">BUY TICKETS</button>
                 <!-- Insert logo here -->
                 <img src="assets/svg/asset-board_festive-logo.svg" id="festive-logo" />
@@ -331,11 +331,11 @@
         <!-- V-MALAYSIA 2018 JOURNEY -->
         <section id="room-reservation">
             <h1 id="room-reservation-title">COMPLETE YOUR V-MALAYSIA 2018 JOURNEY</h1>
-            <p>
+            <p id="room-reservation-par">
                 Looking for hotel reservations and transportation transfers in Penang, Malaysia from 24 to 28 April for you and your team? Apollo got you covered!
             </p>
 
-            <button>SEARCH APOLLO NOW</button>
+            <button id = 'btn-apollo'>SEARCH APOLLO NOW</button>
         </section>
 
         <!-- BLUE GREEN GRADIENT -->
@@ -343,7 +343,7 @@
             <!-- NEWS & UPDATES -->
             <div id="news-and-updates">
                 <h1 id="news-and-updates-title">NEWS & UPDATES</h1>
-                <p>READ | WATCH | VIEW</p>
+                <p id="news-and-updates-par">READ | WATCH | VIEW</p>
                 <!-- dock for web articles, videos, and photo gallery -->
             </div>
 
@@ -359,21 +359,21 @@
             <h1 id="faqs-title">FREQUENTLY ASKED QUESTIONS</h1>
 
             <div class="tab-collapse">
-                <h3>How do I purchase a ticket?</h3>
+                <h3 id='faq-tab-one'>How do I purchase a ticket?</h3>
                 <p>
                     Click <a href="#" target="_blank">here</a> to buy your V-Malaysia 2018 ticket.
                 </p>
             </div>
 
             <div class="tab-collapse">
-                <h3 class="heading">What are the available payment terms?</h3>
+                <h3 id='faq-tab-two' class="heading">What are the available payment terms?</h3>
                 <p>
                     Currently, you can pay with cash or credit card (Visa and MasterCard).
                 </p>
             </div>
 
             <div class="tab-collapse">
-                <h3 class="heading">What to bring?</h3>
+                <h3 id='faq-tab-three' class="heading">What to bring?</h3>
                 <p>
                     Going to V-Con? Here are 5 important things you need to bring:
                     <ol type="1">
@@ -397,14 +397,14 @@
             </div>
 
             <div class="tab-collapse">
-                <h3 class="heading">Will there be tickets for sale on the day of the event itself?</h3>
+                <h3 id='faq-tab-four' class="heading">Will there be tickets for sale on the day of the event itself?</h3>
                 <p>
                     Yes. Only transactions made thru cash and credit card will be accommodated.
                 </p>
             </div>
 
             <div class="tab-collapse">
-                <h3 class="heading">Will there be single-day event tickets available?</h3>
+                <h3 id='faq-tab-five' class="heading">Will there be single-day event tickets available?</h3>
                 <p>
                     No. The 5-day program we prepared for you is something that should be attended from Day 1 to 5 for a complete life-changing experience. It is a comprehensive, holistic event with an action-packed line-up of activities that are highly essential for your business.
                 </p>
@@ -415,13 +415,13 @@
         <footer id="contact-us">
             <h1 id="contact-us-title">CONTACT US</h1>
             <div>
-                <p>
+                <p id='contact-us-par-one'>
                     If you are having trouble accessing our website, or you have further questions which are not available in our FAQ page, please get in touch with us through our following email addresses.
                     <br/><br/>
                     <b>Technical Support</b>: vbox@the-v.net <br/>
                     <b>Content and Translation Concerns</b>: vcomm@the-v.net
                 </p>
-                <p>
+                <p id='contact-us-par-two'>
                     <b>For inquiries:</b>
                     <br/>
                     Mr. Vijiyar Thevan <br/>
@@ -435,8 +435,9 @@
             </div>
 
             <div id="follow-us">
-                <h3>FOLLOW US!</h3>
-                <p>LIKE. TAG. SHARE.</p>
+                <h3 id="follow-us-title">FOLLOW US!</h3>
+                <p id="follow-us-par">LIKE. TAG. SHARE.</p>
+              
                 <!-- Social media icons and links (Facebook, Twitter, Instagram) -->
                 <i class="fa fa-facebook fa-3x"></i>
                 <i class="fa fa-twitter fa-3x"></i>
