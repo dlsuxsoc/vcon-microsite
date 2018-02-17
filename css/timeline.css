@@ -1,3 +1,23 @@
 /*
     stylesheet for the timeline of the site
 */
+
+#history-title {
+    font-size: 3em;
+    margin-top: 50px;
+    text-align: center;
+}
+
+#history-tagline {
+    text-align: center;
+    margin: 16px 21em 0px 21em;
+    text-transform: none;
+}
+
+/* TODO: temporary */
+#history > div > h3, #history > div > p{
+    display: none;
+}
+
+
+

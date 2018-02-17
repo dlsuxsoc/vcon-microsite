@@ -2,11 +2,11 @@
     stylesheet for the everything about V-Malaysia section
 */
 #about {
-    padding: 150px 10%;
+    padding: 120px 10%;
 }
 
 #about > div > div h3 {
-    padding: 20px 0px 0px 0px;
+    padding-top: 30px;
     font-size: 3em;
     width: 11em;
 }
@@ -18,7 +18,7 @@
     vertical-align: middle;
 }
 
-/* Hidden based on final design */
+/* TODO: temporary */
 #about > h1 {
     display: none;
 }
