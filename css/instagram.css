@@ -1,3 +1,16 @@
 /*
     stylesheet for the instagram feed dock
 */
+
+#ig-dock {
+    /* TODO: Temporary */
+    margin-top: 400px;
+}
+
+#ig-dock-title {
+    margin: 0 auto;
+    width: 70%;
+    color: white;
+    font-size: 3em;
+    text-align: center;
+}

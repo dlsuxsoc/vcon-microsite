@@ -4,7 +4,7 @@
 
 /* THEME ASSET ICONS */
 
-#brand-logo{
+#brand-logo, #sticky-brand-logo{
     width: 3em;
 }
 
@@ -15,6 +15,12 @@
     right: 50%;
     margin-left: -50vw;
     margin-right: -50vw;
+}
+
+#festive-logo{
+    display: block;
+    margin: 5em 0;
+    width: 50%;
 }
 
 
