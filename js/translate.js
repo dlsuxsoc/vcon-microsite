@@ -26,7 +26,7 @@ $(document).ready(function () {
             
             //////////*  ENGLISH  *//////////
             if(x === '0'){
-                document.getElementById('tagline').innerHTML = "LLook no further.<br/>Keep going and change your<br/>life forever.";
+                document.getElementById('tagline').innerHTML = "Look no further.<br/>Keep going and change your<br/>life forever.";
 
                 /* WHO, WHAT, WHY*/
                 document.getElementById('about-title').innerHTML = "WHO, WHAT, WHY";
