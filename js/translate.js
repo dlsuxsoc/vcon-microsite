@@ -21,12 +21,11 @@ $(document).ready(function () {
 */
     
         document.getElementById("chosen_lang").onchange = function() {
-            
-            var x = 0;
-            
+            var temp = document.getElementById("chosen_lang");
+            var x = temp.options[temp.selectedIndex].value;
             
             //////////*  ENGLISH  *//////////
-            if(x === 0){
+            if(x === '0'){
                 document.getElementById('tagline').innerHTML = "LLook no further.<br/>Keep going and change your<br/>life forever.";
 
                 /* WHO, WHAT, WHY*/
@@ -125,7 +124,7 @@ $(document).ready(function () {
             }/*END OF IF*/
             
             //////////*  ARABIC  *//////////
-            if(x===1){
+            if(x==='1'){
                 document.getElementById('tagline').innerHTML = "لا تبحث أكثر من ذلك.<br/>استمر في التقدم، وغيّر حياتك إلى الأبد.";
 
                 /* WHO, WHAT, WHY*/
@@ -222,7 +221,7 @@ $(document).ready(function () {
             }/*END OF IF*/
             
             //////////*  FRENCH  *//////////
-            if(x === 2){
+            if(x === '2'){
                 document.getElementById('tagline').innerHTML = "NE CHERCHEZ PAS PLUS LOIN.<br/>CONTINUEZ ET CHANGEZ VOTRE VIE POUR TOUJOURS.";
 
                 /* WHO, WHAT, WHY*/
@@ -315,7 +314,7 @@ $(document).ready(function () {
             }/*END OF IF*/
             
             //////////*  RU  *//////////
-            if(x === 3){
+            if(x === '3'){
                 document.getElementById('tagline').innerHTML = "БОЛЬШЕ НЕ ИЩИТЕ.<br/>ПРОДОЛЖАЙТЕ ИДТИ И МЕНЯТЬ СВОЮ ЖИЗНЬ НАВСЕГДА.";
 
                 /* WHO, WHAT, WHY*/
@@ -409,7 +408,7 @@ $(document).ready(function () {
             }/*END OF IF*/
             
             //////////*  SOMETHING  *//////////
-            if(x === 4){
+            if(x === '4'){
                 document.getElementById('tagline').innerHTML = "Look no further.<br/>Keep going and change your<br/>life forever.";
 
                 /* WHO, WHAT, WHY*/
@@ -501,7 +500,7 @@ $(document).ready(function () {
             }/*END OF IF*/
             
             //////////*  SOMETHING  *//////////
-            if(x === 5){
+            if(x === '5'){
                 document.getElementById('tagline').innerHTML = "Look no further.<br/>Keep going and change your<br/>life forever.";
 
                 /* WHO, WHAT, WHY*/
