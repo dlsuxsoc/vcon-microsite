@@ -21,14 +21,20 @@ $(document).ready(function () {
 */
     
         document.getElementById("chosen_lang").onchange = function() {
-            
-            var x = 0;
-            
+            var temp = document.getElementById("chosen_lang");
+            var x = temp.options[temp.selectedIndex].value;
             
             //////////*  ENGLISH  *//////////
-            if(x === 0){
-                document.getElementById('tagline').innerHTML = "LLook no further.<br/>Keep going and change your<br/>life forever.";
-
+            if(x === '0'){
+                document.getElementById('tagline').innerHTML = "Look no further.<br/>Keep going and change your<br/>life forever.";
+                document.getElementById('buy_ticket_btn').innerHTML = "BUY TICKETS";
+                document.getElementById('about_headnote').innerHTML = "ABOUT";
+                document.getElementById('history_headnote').innerHTML = "HISTORY";
+                document.getElementById('weareone_headnote').innerHTML = "WE ARE ONE";
+                document.getElementById('news_headnote').innerHTML = "NEWS & UPDATES";
+                document.getElementById('faqs_headnote').innerHTML = "FAQs";
+                document.getElementById('contact_headnote').innerHTML = "CONTACT US";
+                
                 /* WHO, WHAT, WHY*/
                 document.getElementById('about-title').innerHTML = "WHO, WHAT, WHY";
                 document.getElementById('about-what').innerHTML = "<b>WHAT</b> is V-Con?";
@@ -85,7 +91,6 @@ $(document).ready(function () {
 
 
                 /* ROOM RESERVATION */
-
                 document.getElementById('room-reservation-title').innerHTML = "COMPLETE YOUR V-MALAYSIA 2018 JOURNEY";
                 document.getElementById('room-reservation-par').innerHTML = "Looking for hotel reservations and transportation transfers in Penang, Malaysia from 24 to 28 April for you and your team? Apollo got you covered!";
                 document.getElementById('btn-apollo').innerHTML = "SEARCH APOLLO NOW";
@@ -98,6 +103,7 @@ $(document).ready(function () {
                 /* INSTAGRAM POSTS */
                 document.getElementById('ig-dock-title').innerHTML = "THE #VCON18 MAGIC TAKING OVER THE WORLD";
 
+                
                 /* FAQ **/
                 document.getElementById('faqs-title').innerHTML = "FREQUENTLY ASKED QUESTIONS";
                 
@@ -106,12 +112,16 @@ $(document).ready(function () {
                 document.getElementById('faq-tab-two').innerHTML = "What are the available payment terms?";
                 document.getElementById('faq-tab-two-par').innerHTML = "Currently, you can pay with cash or credit card (Visa and MasterCard).";
                 document.getElementById('faq-tab-three').innerHTML = "What to bring?";
-                document.getElementById('faq-tab-three-par').innerHTML = "Going to V-Con? Here are 5 important things you need to bring:<ol type='1'><li>During registration, bring one (1) valid ID and copy of the confirmation letter that will be sent to you via email right after the purchase of your ticket.</li><li>Enough pocket money to last for 5 days, which you may spend on food, drinks, transportation, V-Con merchandise, souvenirs, etc.</li><li>Clothes good for 5 days. Make sure to bring extra shirts or towels as it is extra warm in Penang, Malaysia around this time.</li><li>Take a camera with you to make your precious V-Con memories last, and have something you can show to your family and future prospects when you go back home.</li><li>As you want to savour every valuable session on stage, make sure to bring your own pen and notebook for some serious note-taking!</li></ol>";
+                document.getElementById('faq-tab-three-par').innerHTML = "Going to V-Con? Here are 5 important things you need to bring:";
+                document.getElementById('faq-tab-three-par-sub-one').innerHTML = "During registration, bring one (1) valid ID and copy of the confirmation letter that will be sent to you via email right after the purchase of your ticket.";
+                document.getElementById('faq-tab-three-par-sub-two').innerHTML = "Enough pocket money to last for 5 days, which you may spend on food, drinks, transportation, V-Con merchandise, souvenirs, etc. Make sure to have your money either in USD or MYR. ";
+                document.getElementById('faq-tab-three-par-sub-three').innerHTML = "Clothes good for 5 days. Make sure to bring extra shirts or towels as it is extra warm in Penang, Malaysia around this time.";
+                document.getElementById('faq-tab-three-par-sub-four').innerHTML = "Take a camera with you to make your precious V-Con memories last, and have something you can show to your family and future prospects when you go back home.";
+                document.getElementById('faq-tab-three-par-sub-five').innerHTML = "As you want to savour every valuable session on stage, make sure to bring your own pen and notebook for some serious note-taking!";
                 document.getElementById('faq-tab-four').innerHTML = "Will there be tickets for sale on the day of the event itself?";
                 document.getElementById('faq-tab-four-par').innerHTML = "Yes. Only transactions made thru cash and credit card will be accommodated.";
                 document.getElementById('faq-tab-five').innerHTML = "Will there be single-day event tickets available?";
                 document.getElementById('faq-tab-five').innerHTML = "No. The 5-day program we prepared for you is something that should be attended from Day 1 to 5 for a complete life-changing experience. It is a comprehensive, holistic event with an action-packed line-up of activities that are highly essential for your business.";
-
 
 
                 /* CONTACT US */
@@ -119,15 +129,128 @@ $(document).ready(function () {
                 document.getElementById('contact-us-par-one').innerHTML = "If you are having trouble accessing our website, or you have further questions which are not available in our FAQ page, please get in touch with us through our following email addresses.<br/><br/><b>Technical Support</b>: vbox@the-v.net <br/><b>Content and Translation Concerns</b>: vcomm@the-v.net";
                 document.getElementById('contact-us-par-two').innerHTML = "<b>For inquiries:</b><br/>Mr. Vijiyar Thevan <br/>vijiyar.thevan@the-v.net <br/>+601 2209 3793 <br/><br/>Ms. Kauri Subramaniam <br/>kauri.s@the-v.net <br/>+603 7965 8299";
 
+                
                 /* FOLLOW US */
                 document.getElementById('follow-us-title').innerHTML = "FOLLOW US!";
                 document.getElementById('follow-us-par').innerHTML = "LIKE. TAG. SHARE.";
             }/*END OF IF*/
             
-            //////////*  ARABIC  *//////////
-            if(x===1){
-                document.getElementById('tagline').innerHTML = "لا تبحث أكثر من ذلك.<br/>استمر في التقدم، وغيّر حياتك إلى الأبد.";
+            //////////*  FRENCH  *//////////
+            if(x === '1'){
+                document.getElementById('tagline').innerHTML = "Ne cherchez pas plus loin.<br/>Continuez et changez votre vie <br/>pour toujours.";
+                document.getElementById('buy_ticket_btn').innerHTML = "ACHETER UN BILLET";
+                document.getElementById('about_headnote').innerHTML = "ABOUT";
+                document.getElementById('history_headnote').innerHTML = "HISTORY";
+                document.getElementById('weareone_headnote').innerHTML = "NOUS SOMMES UN";
+                document.getElementById('news_headnote').innerHTML = "ACTUALITÉS ET MISES À JOUR";
+                document.getElementById('faqs_headnote').innerHTML = "FAQs";
+                document.getElementById('contact_headnote').innerHTML = "NOUS CONTACTER";
+                
+                
+                /* WHO, WHAT, WHY*/
+                document.getElementById('about-title').innerHTML = "QUI, QUOI, POURQUOI";
+                document.getElementById('about-what').innerHTML = "C’est QUOI le V-Con?";
+                document.getElementById('about-what-p').innerHTML = "Le V-Con est une expérience qui est souvent assimilée à des mots incroyables, magiques et qui changent la vie. Tenu dans neuf pays depuis sa conception en 2001, le V-Convention est un grand rassemblement annuel organisé par The V, où vous pouvez vous attendre à une série de discours de motivation et de séances de formations de classe mondiale essentiels pour les networkers professionnels. Des expositions ultramodernes sont également organisées pour ceux qui souhaitent obtenir des produits exclusifs, apprenez plus sur les produits et profitez des promos spéciales.";
+                document.getElementById('about-who').innerHTML = "QUI va au V-Con?";
+                document.getElementById('about-who-p').innerHTML = "Il est ouvert à tous les IR de QNET qui souhaitent mieux comprendre leur voyage du marketing de réseau. À ce jour, le V-Con a rassemblé des milliers de participants de différentes parties du monde, avec un nombre record en plus.";
+                document.getElementById('about-why').innerHTML = "POURQUOI devez-vous être au V-Con?";
+                document.getElementById('about-why-p').innerHTML = "En tant que partenaire qui sera avec vous tout au long de votre voyage du marketing de réseau, The V vise à maximiser cette convention de 5 jours pour vous aider à réclamer votre but ultime d’obtention de la liberté financière. Que vous veniez de vous inscrire ou que vous soyez dans l'entreprise depuis plusieurs années, vous n'avez pas de meilleure décision que de revenir chez vous au V-Con et de réaliser votre grand potentiel sans limites.";
 
+
+                /* HISTORY */
+                document.getElementById('history-title').innerHTML = "LE V-CON DANS L'HISTOIRE";
+                document.getElementById('history-tagline').innerHTML = "Avant notre 26ème V-Con qui aura lieu du 24 au 28 avril 2018 au SPICE Arena de Penang, en Malaisie, voici où nous changeons des vies depuis 2001";
+                
+                document.getElementById('vcon-2001-title').innerHTML = "2001: V-Con Bali 2001";
+                document.getElementById('vcon-2001-par').innerHTML = "Nous avons vu la naissance de l'événement le plus important et le plus attendu de The V : le V-Convention, ou V-Con. De moins d'une centaine de participants au premier événement à Bali, en Indonésie, les V-Cons d'aujourd'hui sont suivis par plus de quinze mille participants représentant jusqu'à 80 pays à travers le monde.";
+                document.getElementById('vcon-2002-title').innerHTML = "2002: V-Con Goa 2002";
+                document.getElementById('vcon-2002-par').innerHTML = "Avec 500 participants de différentes parties du monde, le V-Con 2002 en Inde a présenté le thème 'The Essence of Leadership' (L'Essence du Leadership). Avec l'attention qu'il a attiré, le V-Con Goa s’est tenu deux fois pour accueillir tous les participants qui voulaient participer à une expérience incroyable.";
+                document.getElementById('vcon-2003-title').innerHTML = "2003: V-Con Kota Kinabalu 2003";
+                document.getElementById('vcon-2003-par').innerHTML = "En 2003, le V-Con s'est rendu à Kota Kinabalu, à Sabah, en Malaisie, où il a rassemblé plus de 500 participants de 26 pays différents. Il a présenté le thème, 'The Essence of Success' (L’essence du succès).";
+                document.getElementById('vcon-2004-title').innerHTML = "2004: V-Dubai 2004 et Euro V-Con 2004";
+                document.getElementById('vcon-2004-par').innerHTML = "V-Dubai en 2004 a marqué le 6ème anniversaire de l’entreprise, où plus de 700 participants étaient présents. </br></br>La même année, The V a tenu son premier V-Con en Europe à Rodos Palace Hotel sur l'île de Rhodes, en Grèce. Du 6 au 9 juin 2004, 200 participants se sont réunis pour ouvrir un nouveau réseau en Europe.";
+                document.getElementById('vcon-2005-title').innerHTML = "2005: V-Thailand 2005";
+                document.getElementById('vcon-2005-par').innerHTML = "V-Thailand 2005 a présenté des activités qui ont fait ressortir notre passion pour le développement du leadership et de l’excellence de classe mondiale.</br></br>Depuis que The V a cru au fait de les faire commencer depuis leur jeunesse, un événement spécial pour les enfants de nos jeunes leaders a débuté au V-Thailand. L'événement maintenant connu sous le nom de V-Kids a commencé avec un petit groupe d'enfants pris en charge par les conjoints de nos V Partners et autres V Ambassadors. ";
+                document.getElementById('vcon-2006-title').innerHTML = "2006: V-Malaysia 2006 et Euro V-Con Madrid 2006";
+                document.getElementById('vcon-2006-par').innerHTML = "Marqué comme le 7ème V-Convention, le V-Malaysia 2006 a eu lieu à Sunway Pyramid Convention Center et portait sur le thème “Over The Top” (Au-dessus).</br>Deux ans après leur premier V-Con européen, The V s'est également lancé dans un programme d'expansion intensif conçu spécialement pour le marché européen la même année. Euro-VCon Madrid a également servi à célébrer deux autres jalons dans l'histoire de l'entreprise: (1) le 8e anniversaire de la création du Qi Group of Companies; et (2) le Qi’s title sponsorship des Championnats du monde 2006 de la Fédération internationale de badminton (IBF) - qui ont servi à affirmer la crédibilité, le prestige et la stabilité de l'entreprise.";
+                document.getElementById('vcon-2007-title').innerHTML = "2007: V-Jakarta 2007 et V-Africa 2007";
+                document.getElementById('vcon-2007-par').innerHTML = "Avec plus de 3000 participants de 40 pays différents, le V-Jakarta 2007 s'est tenu au Jakarta Convention Center, où The V a renforcé sa passion pour le succès du réseau.</br>La même année, The V a apporté son événement dont on parle tant au Kenya et a organisé avec succès le V-Africa 2007, rassemblant plus de 2000 participants.";
+                document.getElementById('vcon-2008-title').innerHTML = "2008: V-Malaysia 2008 et V-Africa 2008";
+                document.getElementById('vcon-2008-par').innerHTML = "L'entreprise a célébré son 10e anniversaire. L'un des points forts du V-Con qui s'est déroulé à Penang International Sports Arena du 21 au 25 mai 2008 fut la Convention V-Kids où plus de 124 enfants de différents âges et nationalités ont eu droit à trois jours de plaisir et d'apprentissage. Outre la Convention V-Kids, les autres points forts de la convention comprenaient le gala spectaculaire, la nuit d’accueil et une exposition qui présentait toute la gamme des produits et services de The V et de ses sociétés sœurs.</br>Kampala, Ouganda situé en Afrique de l'Est est également devenu la ville dont tout le monde parlait car le V-Africa s’est tenu là-bas la même année, avec 1600 participants.";
+                document.getElementById('vcon-2009-title').innerHTML = "2009: V-Malaysia 2009";
+                document.getElementById('vcon-2009-par').innerHTML = "Tenu à Shah Alam, en Malaisie, ce V-Con portait sur le thème 'Change Begins' (Le changement commence).";
+                document.getElementById('vcon-2010-title').innerHTML = "2010: V-Malaysia 2010";
+                document.getElementById('vcon-2010-par').innerHTML = "Conférencier motivateur né avec le syndrome de tetra-amelia, Nick Vujicic a parlé au V-Malaysia 2010";
+                document.getElementById('vcon-2011-title').innerHTML = "2011: V-Malaysia 2011";
+                document.getElementById('vcon-2011-par').innerHTML = "En 2011, le V-Con a été annoncé avec le thème, 'Belief' (Croyance).";
+                document.getElementById('vcon-2012-title').innerHTML = "2012: V-Indonesia 2012";
+                document.getElementById('vcon-2012-par').innerHTML = "Le V-Con a encore une fois trouvé un toit à Jakarta, en Indonésie, au titre de V-Indonesia 2012, où c’était “Make A Difference” (Faire une différence) comme thème convaincant.";
+                document.getElementById('vcon-2013-title').innerHTML = "2013: V-Malaysia 2013";
+                document.getElementById('vcon-2013-par').innerHTML = "Les Rêveurs de toutes les parties du globe se sont à nouveau réunis en Malaisie en 2013 pour le V-Malaysia 2013, qui avait comme titre “RYTHM Nation” (RYTHM de Nation).";
+                document.getElementById('vcon-2014-title').innerHTML = "2014: V-Malaysia 2014";
+                document.getElementById('vcon-2014-par').innerHTML = "Cette année, le V-Con a pris un thème qui invitait les rêveurs à “Arise. Awake. Achieve.” (Se lever, Se réveiller, Atteindre.) C'était aussi le tout premier V-Con qui a fièrement présenté la place de QNET dans le monde du football après avoir signé avec Manchester City Football Club comme partenaire exclusif de vente directe.";
+                document.getElementById('vcon-2015-title').innerHTML = "2015: V-Malaysia 2015 and V-UAE 2015";
+                document.getElementById('vcon-2015-par').innerHTML = "En tant qu’année charnière pour le réseau et l'entreprise, le V-Con 2015 a pris comme thème “Game Changer” (Catalyseur du changement). C'était aussi l'avènement de la série continue de The V en organisant deux V-Conventions chaque année, avec le premier à Penang, Malaisie, et le deuxième à Dubaï, EAU.</br>Au cours de l'un des plus mémorables V-Cons à Dubaï, la championne du monde des dames de tennis, Martina Hingis a été accueillie comme notre nouvelle ambassadrice de la marque.";
+                document.getElementById('vcon-2016-title').innerHTML = "2016: V-Malaysia 2016 et V-UAE 2016";
+                document.getElementById('vcon-2016-par').innerHTML = "Un nombre record de délégués ont assisté au V-Malaysia à Penang. L'arène était pleine à craquer avec plus de quinze mille participants, faisant écho au thème 'Evolve. Empower. Enrich' (Evoluer, Autonomiser, Enrichir.).</br>Anil Kapoor, acteur et producteur indien qui est apparu dans d'innombrables films de Bollywood et internationaux; Jackie Shroff qui a été dans le cinéma hindi pendant près de quatre décennies et est apparu dans 207 films en neuf langues; et Vivek Oberoi, qui a fait ses débuts dans le cinéma hindi, sont montés sur la scène du V-UAE en 2016 pour partager comment ils ont fait le grand pas pour être là où ils sont aujourd'hui.";
+                document.getElementById('vcon-2017-title').innerHTML = "2017: V-Malaysia 2017 et V-UAE 2017";
+                document.getElementById('vcon-2017-par').innerHTML = "Pour la troisième année consécutive, le V-Con a eu lieu à Penang, en Malaisie et à Dubaï, aux EAU, avec une participation record. Le thème vibrant “DO IT NOW” (Faites-le maintenant) était le titre des deux V-Conventions. Muniba Mazari, une femme inspirante dont l'histoire de vie a attiré beaucoup d'amour et d'admiration des milliers de rêveurs au V-Malaysia et V-UAE, est ajoutée à une liste croissante de superstars qui ont rejoint notre famille pour faire partie d'une incroyable expérience V-Con.";
+                
+                
+
+                /* Call-to-Action */
+                document.getElementById('cta-title').innerHTML = "NOUS SOMMES UN";
+                document.getElementById('cta-par').innerHTML = "Apprenez à connaître la famille. Entrez dans notre maison. Suivez l'appel.";
+
+
+                /* ROOM RESERVATION */
+
+                document.getElementById('room-reservation-title').innerHTML = "COMPLÉTEZ VOTRE VOYAGE V-MALAYSIA 2018 ";
+                document.getElementById('room-reservation-par').innerHTML = "Vous recherchez des réservations d'hôtel et des transferts transport à Penang, en Malaisie du 24 au 28 avril pour vous et votre équipe? Apollo a ce qu’il faut!";
+                document.getElementById('btn-apollo').innerHTML = "RECHERCHEZ APOLLO MAINTENANT";
+
+                /* NEWS AND UPDATES */
+                document.getElementById('news-and-updates-title').innerHTML = "ACTUALITÉS ET MISES À JOUR";
+                document.getElementById('news-and-updates-par').innerHTML = "LIRE | REGARDER | AFFICHER";
+
+
+                /* INSTAGRAM POSTS */
+                document.getElementById('ig-dock-title').innerHTML = "LA MAGIE DU #VCON18 PREND LE CONTRÔLE DU MONDE";
+
+                /* FAQ */
+                document.getElementById('faqs-title').innerHTML = "Questions Fréquemment Posées";
+                document.getElementById('faq-tab-one').innerHTML = "Comment puis-je acheter un billet?";
+                document.getElementById('faq-tab-one-par').innerHTML = "Cliquez ici pour acheter votre billet V-Malaysia 2018.";
+                document.getElementById('faq-tab-two').innerHTML = "Quelles sont les modalités de paiement disponibles?";
+                document.getElementById('faq-tab-two-par').innerHTML = "Actuellement, vous pouvez payer en espèces ou par carte de crédit (Visa et MasterCard).";
+                document.getElementById('faq-tab-three').innerHTML = "Que faut-il apporter?";
+                document.getElementById('faq-tab-three-par').innerHTML = "Vous allez au V-Con? Voici les 5 choses importantes que vous devez apporter :";
+                document.getElementById('faq-tab-three-par-sub-one').innerHTML = "Lors de l'inscription, apportez une (1) pièce d'identité valide et une copie de la lettre de confirmation qui vous sera envoyée par courriel juste après l'achat de votre billet.";
+                document.getElementById('faq-tab-three-par-sub-two').innerHTML = "Ayez suffisamment d'argent de poche pour 5 jours, que vous pourrez dépenser pour la nourriture, la boisson, le transport, les produits du V-Con, les souvenirs, etc. Assurez-vous d'avoir votre argent en USD ou MYR.";
+                document.getElementById('faq-tab-three-par-sub-three').innerHTML = "De bons vêtements pour 5 jours. Assurez-vous d’apporter des chemises ou serviettes supplémentaires car il fait très chaud à Penang, en Malaisie à cette époque.";
+                document.getElementById('faq-tab-three-par-sub-four').innerHTML = "Prenez un appareil photo avec vous pour garder longtemps vos précieux souvenirs du V-Con et ayez quelque chose que vous pourrez montrer à votre famille et vos futurs prospects lorsque vous rentrerez chez vous.";
+                document.getElementById('faq-tab-three-par-sub-five').innerHTML = "Comme vous voulez savourez chaque session précieuse sur scène, assurez-vous d’apporter votre propre stylo et votre carnet pour une bonne prise de note!";
+                document.getElementById('faq-tab-four').innerHTML = "Y aura-t-il des billets à vendre le jour même de l'événement?";
+                document.getElementById('faq-tab-four-par').innerHTML = "Oui. Seules les transactions effectuées en espèces et par carte de crédit seront prises en compte.";
+                document.getElementById('faq-tab-five').innerHTML = "Y aura-t-il des billets d'une seule journée d'événement disponibles?";
+                document.getElementById('faq-tab-five-par').innerHTML = "Non. Le programme de 5 jours que nous avons préparé pour vous est quelque chose auquel il faut assister du 1er au 5e jour pour une expérience complète qui change la vie. Il s'agit d'un événement complet et holistique avec une gamme d’activités riches en action très essentielles pour votre entreprise.";
+
+                
+                /* CONTACT US */
+                document.getElementById('contact-us-title').innerHTML = "NOUS CONTACTER";
+                document.getElementById('contact-us-par-one').innerHTML = "Si vous rencontrez des difficultés à accéder à notre site Web, ou si vous avez d'autres questions qui ne sont pas disponibles sur notre page FAQ, veuillez nous contacter par nos adresses e-mail suivantes.<br/><br/><b>Support technique</b>: vbox@the-v.net <br/><b>Questions liées au contenu et à la traduction</b>: vcomm@the-v.net";
+                document.getElementById('contact-us-par-two').innerHTML = "<b>Pour toute demande de renseignements :</b><br/>Mr. Vijiyar Thevan <br/>vijiyar.thevan@the-v.net <br/>+601 2209 3793 <br/><br/>Ms. Kauri Subramaniam <br/>kauri.s@the-v.net <br/>+603 7965 8299";
+
+                /* FOLLOW US */
+                document.getElementById('follow-us-title').innerHTML = "FOLLOW US!";
+                document.getElementById('follow-us-par').innerHTML = "LIKE. TAG. SHARE.";
+            }/*END OF IF*/
+                      
+            //////////*  ARABIC  *//////////
+            if(x === '2'){
+                document.getElementById('tagline').innerHTML = "لا تبحث أكثر من ذلك.<br/>استمر في التقدم، وغيّر حياتك إلى الأبد.";
+                document.getElementById('buy_ticket_btn').innerHTML = "اشتر تذكرة";
+                
                 /* WHO, WHAT, WHY*/
                 document.getElementById('about-title').innerHTML = "من، ماذا، لماذا";
                 document.getElementById('about-what').innerHTML = "ما هو الـ V-Con؟";
@@ -143,39 +266,39 @@ $(document).ready(function () {
                 document.getElementById('history-tagline').innerHTML = "قبل الـ V-Con رقم 26 في إبريل المقبل في الفترة من 24 إلى 28، ،2018 في ساحة SPICE في بينانج، بماليزيا، إليكم مراحل تغييرنا لحياة الناس منذ العام 2001.";
 
 
-                document.getElementById('vcon-2001-title').innerHTML = "";
+                document.getElementById('vcon-2001-title').innerHTML = "عام 2001: V-Con Bali 2001";
                 document.getElementById('vcon-2001-par').innerHTML = "";
-                document.getElementById('vcon-2002-title').innerHTML = "";
+                document.getElementById('vcon-2002-title').innerHTML = "عام 2002: V-Con Goa 2002";
                 document.getElementById('vcon-2002-par').innerHTML = "";
-                document.getElementById('vcon-2003-title').innerHTML = "";
+                document.getElementById('vcon-2003-title').innerHTML = "عام 2003: V-Con Kota Kinabalu 2003";
                 document.getElementById('vcon-2003-par').innerHTML = "";
-                document.getElementById('vcon-2004-title').innerHTML = "";
+                document.getElementById('vcon-2004-title').innerHTML = "عام 2004: V-Dubai 2004 وEuro V-Con 2004";
                 document.getElementById('vcon-2004-par').innerHTML = "";
-                document.getElementById('vcon-2005-title').innerHTML = "";
+                document.getElementById('vcon-2005-title').innerHTML = "عام 2005: V-Thailand 2005";
                 document.getElementById('vcon-2005-par').innerHTML = "";
-                document.getElementById('vcon-2006-title').innerHTML = "";
+                document.getElementById('vcon-2006-title').innerHTML = "عام 2006: V-Malaysia 2006 وEuro V-Con Madrid 2006";
                 document.getElementById('vcon-2006-par').innerHTML = "";
-                document.getElementById('vcon-2007-title').innerHTML = "";
+                document.getElementById('vcon-2007-title').innerHTML = "عام 2007: V-Jakarta 2007 وV-Africa 2007";
                 document.getElementById('vcon-2007-par').innerHTML = "";
-                document.getElementById('vcon-2008-title').innerHTML = "";
+                document.getElementById('vcon-2008-title').innerHTML = "عام 2008: V-Malaysia 2008 وV-Africa 2008";
                 document.getElementById('vcon-2008-par').innerHTML = "";
-                document.getElementById('vcon-2009-title').innerHTML = "";
+                document.getElementById('vcon-2009-title').innerHTML = "عام 2009: V-Malaysia 2009";
                 document.getElementById('vcon-2009-par').innerHTML = "";
-                document.getElementById('vcon-2010-title').innerHTML = "";
+                document.getElementById('vcon-2010-title').innerHTML = "عام 2010: V-Malaysia 2010";
                 document.getElementById('vcon-2010-par').innerHTML = "";
-                document.getElementById('vcon-2011-title').innerHTML = "";
+                document.getElementById('vcon-2011-title').innerHTML = "عام 2011: V-Malaysia 2011";
                 document.getElementById('vcon-2011-par').innerHTML = "";
-                document.getElementById('vcon-2012-title').innerHTML = "";
+                document.getElementById('vcon-2012-title').innerHTML = "عام 2012: V-Indonesia 2012";
                 document.getElementById('vcon-2012-par').innerHTML = "";
-                document.getElementById('vcon-2013-title').innerHTML = "";
+                document.getElementById('vcon-2013-title').innerHTML = "عام 2013: V-Malaysia 2013";
                 document.getElementById('vcon-2013-par').innerHTML = "";
-                document.getElementById('vcon-2014-title').innerHTML = "";
+                document.getElementById('vcon-2014-title').innerHTML = "عام 2014: V-Malaysia 2014";
                 document.getElementById('vcon-2014-par').innerHTML = "";
-                document.getElementById('vcon-2015-title').innerHTML = "";
+                document.getElementById('vcon-2015-title').innerHTML = "عام 2015:  V-Malaysia 2015 وV-UAE 2015";
                 document.getElementById('vcon-2015-par').innerHTML = "";
-                document.getElementById('vcon-2016-title').innerHTML = "";
+                document.getElementById('vcon-2016-title').innerHTML = "عام 2016: V-Malaysia 2016 وV-UAE 2016";
                 document.getElementById('vcon-2016-par').innerHTML = "";
-                document.getElementById('vcon-2017-title').innerHTML = "";
+                document.getElementById('vcon-2017-title').innerHTML = "عام 2017: V-Malaysia 2017 وV-UAE 2017";
                 document.getElementById('vcon-2017-par').innerHTML = "";
                 
                 
@@ -221,101 +344,8 @@ $(document).ready(function () {
                 document.getElementById('follow-us-par').innerHTML = "إعجاب. أوسم. شارك.";
             }/*END OF IF*/
             
-            //////////*  FRENCH  *//////////
-            if(x === 2){
-                document.getElementById('tagline').innerHTML = "NE CHERCHEZ PAS PLUS LOIN.<br/>CONTINUEZ ET CHANGEZ VOTRE VIE POUR TOUJOURS.";
-
-                /* WHO, WHAT, WHY*/
-                document.getElementById('about-title').innerHTML = "QUI, QUOI, POURQUOI";
-                document.getElementById('about-what').innerHTML = "C’est QUOI le V-Con?";
-                document.getElementById('about-what-p').innerHTML = "Le V-Con est une expérience qui est souvent assimilée à des mots incroyables, magiques et qui changent la vie. Tenu dans neuf pays depuis sa conception en 2001, le V-Convention est un grand rassemblement annuel organisé par The V, où vous pouvez vous attendre à une série de discours de motivation et de séances de formations de classe mondiale essentiels pour les networkers professionnels. Des expositions ultramodernes sont également organisées pour ceux qui souhaitent obtenir des produits exclusifs, apprenez plus sur les produits et profitez des promos spéciales.";
-                document.getElementById('about-who').innerHTML = "QUI va au V-Con?";
-                document.getElementById('about-who-p').innerHTML = "Il est ouvert à tous les IR de QNET qui souhaitent mieux comprendre leur voyage du marketing de réseau. À ce jour, le V-Con a rassemblé des milliers de participants de différentes parties du monde, avec un nombre record en plus.";
-                document.getElementById('about-why').innerHTML = "POURQUOI devez-vous être au V-Con?";
-                document.getElementById('about-why-p').innerHTML = "En tant que partenaire qui sera avec vous tout au long de votre voyage du marketing de réseau, The V vise à maximiser cette convention de 5 jours pour vous aider à réclamer votre but ultime d’obtention de la liberté financière. Que vous veniez de vous inscrire ou que vous soyez dans l'entreprise depuis plusieurs années, vous n'avez pas de meilleure décision que de revenir chez vous au V-Con et de réaliser votre grand potentiel sans limites.";
-
-
-                /* HISTORY */
-                document.getElementById('history-title').innerHTML = "LE V-CON DANS L'HISTOIRE";
-                document.getElementById('history-tagline').innerHTML = "Avant notre 26ème V-Con qui aura lieu du 24 au 28 avril 2018 au SPICE Arena de Penang, en Malaisie, voici où nous changeons des vies depuis 2001";
-                
-                document.getElementById('vcon-2001-title').innerHTML = "";
-                document.getElementById('vcon-2001-par').innerHTML = "";
-                document.getElementById('vcon-2002-title').innerHTML = "";
-                document.getElementById('vcon-2002-par').innerHTML = "";
-                document.getElementById('vcon-2003-title').innerHTML = "";
-                document.getElementById('vcon-2003-par').innerHTML = "";
-                document.getElementById('vcon-2004-title').innerHTML = "";
-                document.getElementById('vcon-2004-par').innerHTML = "";
-                document.getElementById('vcon-2005-title').innerHTML = "";
-                document.getElementById('vcon-2005-par').innerHTML = "";
-                document.getElementById('vcon-2006-title').innerHTML = "";
-                document.getElementById('vcon-2006-par').innerHTML = "";
-                document.getElementById('vcon-2007-title').innerHTML = "";
-                document.getElementById('vcon-2007-par').innerHTML = "";
-                document.getElementById('vcon-2008-title').innerHTML = "";
-                document.getElementById('vcon-2008-par').innerHTML = "";
-                document.getElementById('vcon-2009-title').innerHTML = "";
-                document.getElementById('vcon-2009-par').innerHTML = "";
-                document.getElementById('vcon-2010-title').innerHTML = "";
-                document.getElementById('vcon-2010-par').innerHTML = "";
-                document.getElementById('vcon-2011-title').innerHTML = "";
-                document.getElementById('vcon-2011-par').innerHTML = "";
-                document.getElementById('vcon-2012-title').innerHTML = "";
-                document.getElementById('vcon-2012-par').innerHTML = "";
-                document.getElementById('vcon-2013-title').innerHTML = "";
-                document.getElementById('vcon-2013-par').innerHTML = "";
-                document.getElementById('vcon-2014-title').innerHTML = "";
-                document.getElementById('vcon-2014-par').innerHTML = "";
-                document.getElementById('vcon-2015-title').innerHTML = "";
-                document.getElementById('vcon-2015-par').innerHTML = "";
-                document.getElementById('vcon-2016-title').innerHTML = "";
-                document.getElementById('vcon-2016-par').innerHTML = "";
-                document.getElementById('vcon-2017-title').innerHTML = "";
-                document.getElementById('vcon-2017-par').innerHTML = "";
-                
-                
-
-                /* Call-to-Action */
-                document.getElementById('cta-title').innerHTML = "NOUS SOMMES UN";
-                document.getElementById('cta-par').innerHTML = "Apprenez à connaître la famille. Entrez dans notre maison. Suivez l'appel.";
-
-
-                /* ROOM RESERVATION */
-
-                document.getElementById('room-reservation-title').innerHTML = "COMPLÉTEZ VOTRE VOYAGE V-MALAYSIA 2018 ";
-                document.getElementById('room-reservation-par').innerHTML = "Vous recherchez des réservations d'hôtel et des transferts transport à Penang, en Malaisie du 24 au 28 avril pour vous et votre équipe? Apollo a ce qu’il faut!";
-                document.getElementById('btn-apollo').innerHTML = "RECHERCHEZ APOLLO MAINTENANT";
-
-                /* NEWS AND UPDATES */
-                document.getElementById('news-and-updates-title').innerHTML = "ACTUALITÉS ET MISES À JOUR";
-                document.getElementById('news-and-updates-par').innerHTML = "LIRE | REGARDER | AFFICHER";
-
-
-                /* INSTAGRAM POSTS */
-                document.getElementById('ig-dock-title').innerHTML = "LA MAGIE DU #VCON18 PREND LE CONTRÔLE DU MONDE";
-
-                /* FAQ */
-                document.getElementById('faqs-title').innerHTML = "Questions Fréquemment Posées";
-                document.getElementById('faq-tab-one').innerHTML = "Comment puis-je acheter un billet?";
-                document.getElementById('faq-tab-two').innerHTML = "Quelles sont les modalités de paiement disponibles?";
-                document.getElementById('faq-tab-three').innerHTML = "Que faut-il apporter?";
-                document.getElementById('faq-tab-four').innerHTML = "Y aura-t-il des billets à vendre le jour même de l'événement?";
-                document.getElementById('faq-tab-five').innerHTML = "Y aura-t-il des billets d'une seule journée d'événement disponibles?";
-
-
-                /* CONTACT US */
-                document.getElementById('contact-us-title').innerHTML = "NOUS CONTACTER";
-                document.getElementById('contact-us-par-one').innerHTML = "Si vous rencontrez des difficultés à accéder à notre site Web, ou si vous avez d'autres questions qui ne sont pas disponibles sur notre page FAQ, veuillez nous contacter par nos adresses e-mail suivantes.<br/><br/><b>Support technique</b>: vbox@the-v.net <br/><b>Questions liées au contenu et à la traduction</b>: vcomm@the-v.net";
-                document.getElementById('contact-us-par-two').innerHTML = "<b>Pour toute demande de renseignements :</b><br/>Mr. Vijiyar Thevan <br/>vijiyar.thevan@the-v.net <br/>+601 2209 3793 <br/><br/>Ms. Kauri Subramaniam <br/>kauri.s@the-v.net <br/>+603 7965 8299";
-
-                /* FOLLOW US */
-                document.getElementById('follow-us-title').innerHTML = "FOLLOW US!";
-                document.getElementById('follow-us-par').innerHTML = "LIKE. TAG. SHARE.";
-            }/*END OF IF*/
-            
             //////////*  RU  *//////////
-            if(x === 3){
+            if(x === '3'){
                 document.getElementById('tagline').innerHTML = "БОЛЬШЕ НЕ ИЩИТЕ.<br/>ПРОДОЛЖАЙТЕ ИДТИ И МЕНЯТЬ СВОЮ ЖИЗНЬ НАВСЕГДА.";
 
                 /* WHO, WHAT, WHY*/
@@ -409,7 +439,7 @@ $(document).ready(function () {
             }/*END OF IF*/
             
             //////////*  SOMETHING  *//////////
-            if(x === 4){
+            if(x === '4'){
                 document.getElementById('tagline').innerHTML = "Look no further.<br/>Keep going and change your<br/>life forever.";
 
                 /* WHO, WHAT, WHY*/
@@ -501,7 +531,7 @@ $(document).ready(function () {
             }/*END OF IF*/
             
             //////////*  SOMETHING  *//////////
-            if(x === 5){
+            if(x === '5'){
                 document.getElementById('tagline').innerHTML = "Look no further.<br/>Keep going and change your<br/>life forever.";
 
                 /* WHO, WHAT, WHY*/
