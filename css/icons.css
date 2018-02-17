@@ -1,0 +1,43 @@
+/*
+    stylesheet framework for aesthetics and full-width graphics
+*/
+
+/* THEME ASSET ICONS */
+
+#brand-logo, #sticky-brand-logo{
+    width: 3em;
+}
+
+#bridge{
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+}
+
+#festive-logo{
+    display: block;
+    margin: 5em 0;
+    width: 50%;
+}
+
+
+/* FONT-AWESOME STYLESHEET */
+i.fa{
+    display: inline-block;
+    margin: 0.5em;
+    color: white;
+    cursor: pointer;
+
+    transition: 0.1s ease all;
+    -webkit-transition: 0.1s ease all;
+    -o-transition: 0.1s ease all;
+    -moz-transition: 0.1s ease all;
+    -ms-transition: 0.1s ease all;
+}
+
+i.fa:hover{
+    color: black;
+}
