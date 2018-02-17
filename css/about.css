@@ -1,3 +1,37 @@
 /*
     stylesheet for the everything about V-Malaysia section
 */
+#about {
+    padding: 150px 10%;
+}
+
+#about > div > div {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 90px;
+    vertical-align: middle;
+}
+
+#about > h1 {
+    display: none;
+}
+
+#about > div > div:nth-child(1) p, #about > div >div:nth-child(3) p{
+    padding-top: 0px;
+    width: 27em;
+    text-align: left;
+}
+
+#about > div > div:nth-child(2) p{
+    padding-top: 0px;
+    width: 27em;
+    text-align: right;
+}
+
+#about > div > div:nth-child(2) h3 {
+    text-align: right;
+}
+
+#about > div > div h3 {
+    padding-top: 20px;
+}
