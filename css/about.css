@@ -5,13 +5,20 @@
     padding: 150px 10%;
 }
 
+#about > div > div h3 {
+    padding: 20px 0px 0px 0px;
+    font-size: 3em;
+    width: 11em;
+}
+
 #about > div > div {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     margin-bottom: 90px;
     vertical-align: middle;
 }
 
+/* Hidden based on final design */
 #about > h1 {
     display: none;
 }
@@ -24,14 +31,11 @@
 
 #about > div > div:nth-child(2) p{
     padding-top: 0px;
-    width: 27em;
+    width: 32em;
     text-align: right;
 }
 
 #about > div > div:nth-child(2) h3 {
+    padding: 20px 0px 0px 0px;
     text-align: right;
-}
-
-#about > div > div h3 {
-    padding-top: 20px;
 }
