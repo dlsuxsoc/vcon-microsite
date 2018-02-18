@@ -4,12 +4,12 @@
 
 #ig-dock {
     /* TODO: Temporary */
-    margin-top: 400px;
+    margin-top: 200px;
+    margin-bottom: 200px;
 }
 
 #ig-dock-title {
     margin: 0 auto;
-    width: 70%;
     color: white;
     font-size: 3em;
     text-align: center;
