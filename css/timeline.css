@@ -2,33 +2,55 @@
     stylesheet for the timeline of the site
 */
 
-
-/*#history {
-    padding-top: 70px;
+#history {
+    padding-top: 5em;
     padding-bottom: 0;
     margin: auto;
-}*/
+}
 
 #history-title {
     text-align: center;
-    width: 60%;
     font-size: 3em;
     margin: auto;
 }
 
 #history-tagline {
-    width: 52%;
+    padding: 1em 20%;
     margin: auto;
     text-align: center;
     text-transform: none;
+    font-weight: normal;
 }
 
+#history > div{
+    margin: 5em 0;
+    padding: 0 10%;
+}
 
-/* TODO: temporary */
+#history > div > p{
+    margin: 1em;
+}
 
-#history>div>h3,
-#history>div>p {
-    /* display: none; */
-    /* Tentative color */
+#history > div > h3,
+#history > div > p {
     color: white;
+    text-align: center;
+}
+
+div.line-point{
+    margin: 3em auto;
+    width: 1em;
+    height: 1em;
+    border-radius: 100%;
+    background-color: white;
+    padding: 3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.line-point span{
+    color: black;
+    margin: auto auto;
+    font-weight: bold;
 }

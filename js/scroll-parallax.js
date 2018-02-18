@@ -10,6 +10,15 @@ $(document).ready(function(){
     $(window).scroll(function(){
         updateStickyNav(headerHeight);
     });
+
+    var stickyHeight = $('#sticky-nav').outerHeight();
+    $('nav ul li').click(function(e){
+        targetSection = $(this).attr('href');
+        $('body, html').animate({
+            scrollTop: $(targetSection).offset().top - stickyHeight + 1
+        }, 1000);
+        e.preventDefault();
+    });
 });
 
 function updateStickyNav(headerHeight){
