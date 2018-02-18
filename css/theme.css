@@ -19,6 +19,7 @@ body, html{
     padding: 0;
     font-family: 'Nunito Sans', 'Open Sans', sans-serif;
     background-color: #EFF3F6;
+    overflow-x: hidden;
 }
 
 body{
@@ -35,7 +36,8 @@ h1, h2, h3, h4, h5, h6{
 
 p{
     font-family: 'Nunito Sans', 'Open Sans', sans-serif;
-    font-size: 1em;
+    font-size: 1.1em;
+    line-height: 1.7em;
     margin: 1em 0;
     padding: 0;
     color: var(--theme-content-neutral);

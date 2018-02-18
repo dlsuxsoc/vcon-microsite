@@ -179,7 +179,7 @@
 }
 
 /* Responsive content */
-@media (max-width: 1225px) {
+@media (max-width: 1355px) {
     header, section, footer{
         padding-left: 5%;
         padding-right: 5%;
@@ -192,7 +192,11 @@
 }
 
 /* Responsive hero section point realignment */
-@media (max-width: 935px){
+@media (max-width: 966px){
+    nav.sticky{
+        padding: 0 !important;
+    }
+
     #hero-content{
         width: 100%;
         flex-direction: column;
@@ -217,7 +221,7 @@
 }
 
 /* Responsive about section point realignment */
-@media (max-width: 935px){
+@media only screen and (max-width: 966px){
     #one-people, #one-planet, #one-purpose{
         width: 70%;
         padding: 1em 0;
@@ -245,18 +249,18 @@
 }
 
 /* Responsive nav bar */
-@media (max-width: 1089px) {
-    #hamburger-icon {
-        display: block;
+@media only screen and (max-width: 1189px) {
+    .nav-items {
+        display: none;
     }
 
-    #nav-items {
-        display: none;
+    nav li.hamburger-icon{
+        display: inline-block;
     }
 }
 
 /* Responsive titles and taglines point adjustment */
-@media (max-width: 935px){
+@media only screen and (max-width: 935px){
     #history-title, #room-reservation-title, #news-and-updates-title,
     #faqs-title, #contact-us-title, #follow-us-title{
         padding: 10%;

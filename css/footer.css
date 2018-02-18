@@ -22,8 +22,7 @@
 }
 
 #follow-us {
-    position: relative;
-    top: 120px;
+    margin: 8em 0;
 }
 
 #follow-us>h3 {
@@ -38,9 +37,7 @@
     font-weight: bold;
 }
 
-#follow-us>i {
-    display: inline-block;
-    text-align: center;
-    width: 32.99%;
-    margin: 0 auto;
+#social-icons {
+    display: flex;
+    justify-content: center;
 }

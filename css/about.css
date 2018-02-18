@@ -5,55 +5,53 @@
 
 /*Whitespace testing*/
 
-* {
-    /* border: 1px solid red; */
-}
-
 #about {
     padding-top: 80px;
     margin: auto;
 }
 
-#about>div>div h3 {
+#about > div > div h3 {
     /*padding-top: 30px;*/
     font-size: 3em;
-    width: 11em;
 }
 
-#about>div>div {
+#about > div > div {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 90px;
+    padding: 6em 0;
     vertical-align: middle;
 }
 
-#about>div>div img {
+#about > div > div > div{
+    max-width: 40em;
+    width: 50%;
+}
+
+#about > div > div img {
     display: block;
-    width: 27%;
+    width: 40%;
     height: auto;
 }
 
 
 /* TODO: temporary */
 
-#about>h1 {
+#about > h1 {
     display: none;
 }
 
-#about>div>div:nth-child(1) p,
-#about>div>div:nth-child(3) p {
+#about > div > div:nth-child(1) p,
+#about > div > div:nth-child(3) p {
     padding-top: 0px;
-    width: 32em;
     text-align: left;
 }
 
-#about>div>div:nth-child(2) p {
+#about > div > div:nth-child(2) p {
     padding-top: 0px;
-    width: 31em;
     margin-left: auto;
-    text-align: right;
+    text-align: left;
 }
 
-#about>div>div:nth-child(2) h3 {
-    text-align: right;
+#about > div > div:nth-child(2) h3 {
+    text-align: left;
 }

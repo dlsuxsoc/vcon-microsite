@@ -8,7 +8,6 @@
 
 #news-and-updates-title {
     margin: 0 auto;
-    width: 40%;
     text-align: center;
     font-size: 3em;
     color: white;
@@ -17,7 +16,6 @@
 #news-and-updates > p {
     margin: 0 auto;
     margin-top: 5px;
-    width: 40%;
     text-align: center;
     text-transform: full-width;
     color: white;
