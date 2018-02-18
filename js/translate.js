@@ -27,7 +27,10 @@ $(document).ready(function() {
         //////////*  ENGLISH  *//////////done
         if (x === '0') {
             document.getElementById('tagline').innerHTML = "Look no further.<br/>Keep going and change your<br/>life forever.";
-            document.getElementById('switch_lang').innerHTML = "BUY TICKETS";
+            document.getElementById('btn-ticket1').innerHTML = "BUY TICKETS";
+            document.getElementById('btn-ticket2').innerHTML = "BUY TICKETS";
+            document.getElementById('btn-ticket3').innerHTML = "BUY TICKETS";
+            document.getElementById('btn-ticket4').innerHTML = "BUY TICKETS";
             /*
             document.getElementById('about_headnote').innerHTML = "ABOUT";
             document.getElementById('history_headnote').innerHTML = "HISTORY";
@@ -136,7 +139,10 @@ $(document).ready(function() {
         //////////*  ARABIC  *////////// lacking history call to action faq
         if (x === '1') {
             document.getElementById('tagline').innerHTML = "لا تبحث أكثر من ذلك.<br/>استمر في التقدم، وغيّر حياتك إلى الأبد.";
-            document.getElementById('switch_lang').innerHTML = "اشتر تذكرة";
+            document.getElementById('btn-ticket1').innerHTML = "اشتر تذكرة";
+            document.getElementById('btn-ticket2').innerHTML = "اشتر تذكرة";
+            document.getElementById('btn-ticket3').innerHTML = "اشتر تذكرة";
+            document.getElementById('btn-ticket4').innerHTML = "اشتر تذكرة";
 
             /* WHO, WHAT, WHY*/
             document.getElementById('about-title').innerHTML = "من، ماذا، لماذا";
@@ -231,7 +237,10 @@ $(document).ready(function() {
         //////////*  TURKISH  *//////////done
         if (x === '2') {
             document.getElementById('tagline').innerHTML = "BAŞKA YERDE ARAMA.<br/>DEVAM EDİN VE HAYATINIZI SONSUZA <br/>DEK DEĞİŞTİRİN.";
-            document.getElementById('switch_lang').innerHTML = "BİLET ALIN";
+            document.getElementById('btn-ticket1').innerHTML = "BİLET ALIN";
+            document.getElementById('btn-ticket2').innerHTML = "BİLET ALIN";
+            document.getElementById('btn-ticket3').innerHTML = "BİLET ALIN";
+            document.getElementById('btn-ticket4').innerHTML = "BİLET ALIN";
 
             /* HISTORY **/
             document.getElementById('history-title').innerHTML = "TARİH BOYUNCA V-CON";
@@ -332,7 +341,10 @@ $(document).ready(function() {
         //////////*  FRENCH  *//////////done
         if (x === '3') {
             document.getElementById('tagline').innerHTML = "Ne cherchez pas plus loin.<br/>Continuez et changez votre vie <br/>pour toujours.";
-            document.getElementById('switch_lang').innerHTML = "ACHETER UN BILLET";
+            document.getElementById('btn-ticket1').innerHTML = "ACHETER UN BILLET";
+            document.getElementById('btn-ticket2').innerHTML = "ACHETER UN BILLET";
+            document.getElementById('btn-ticket3').innerHTML = "ACHETER UN BILLET";
+            document.getElementById('btn-ticket4').innerHTML = "ACHETER UN BILLET";
             /* document.getElementById('buy_ticket_btn').innerHTML = "ACHETER UN BILLET";
             document.getElementById('about_headnote').innerHTML = "ABOUT";
             document.getElementById('history_headnote').innerHTML = "HISTORY";
@@ -443,7 +455,10 @@ $(document).ready(function() {
         //////////*  RU  *//////////done
         if (x === '4') {
             document.getElementById('tagline').innerHTML = "БОЛЬШЕ НЕ ИЩИТЕ.<br/>ПРОДОЛЖАЙТЕ ИДТИ И МЕНЯТЬ СВОЮ ЖИЗНЬ НАВСЕГДА.";
-            document.getElementById('switch_lang').innerHTML = "КУПИТЬ БИЛЕТ";
+            document.getElementById('btn-ticket1').innerHTML = "КУПИТЬ БИЛЕТ";
+            document.getElementById('btn-ticket2').innerHTML = "КУПИТЬ БИЛЕТ";
+            document.getElementById('btn-ticket3').innerHTML = "КУПИТЬ БИЛЕТ";
+            document.getElementById('btn-ticket4').innerHTML = "КУПИТЬ БИЛЕТ";
 
             /* HISTORY */
             document.getElementById('history-title').innerHTML = "V-CON В ИСТОРИИ";
@@ -545,7 +560,10 @@ $(document).ready(function() {
         //////////*  INDONESIAN  *//////////done 
         if (x === '5') {
             document.getElementById('tagline').innerHTML = "Look no further.<br/>Keep going and change your<br/>life forever.";
-            document.getElementById('switch_lang').innerHTML = "BELI TIKET";
+            document.getElementById('btn-ticket1').innerHTML = "BELI TIKET";
+            document.getElementById('btn-ticket2').innerHTML = "BELI TIKET";
+            document.getElementById('btn-ticket3').innerHTML = "BELI TIKET";
+            document.getElementById('btn-ticket4').innerHTML = "BELI TIKET";
 
             /* HISTORY **/
             document.getElementById('history-title').innerHTML = "V-CON MELALUI SEJARAH";
