@@ -42,7 +42,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
     </head>
     <body>
-        <nav class="flex-between simple sticky">
+        <nav class="flex-between simple sticky" id="sticky-nav">
             <ul>
                 <li><img src="assets/svg/asset-board_v-logo.svg" id="sticky-brand-logo"/></li>
                 <li>ABOUT</li>
@@ -125,25 +125,20 @@
 
         <!-- ALL ABOUT V-MALAYSIA 2018 -->
         <section id="about">
-            <h1 id="about-title" >WHO, WHAT, WHY</h1>
+            <!--<h1 id="about-title" >WHO, WHAT, WHY</h1>-->
             <div>
-                <div class="row">
-                    <div class="col-lg-right-4 col-md-right-4 col-sm-12 col-xs-12">
-                        <img src="assets/svg/asset-board_one-planet.svg" id="one-planet" />
-                    </div>
+                <div class="row flex-between invisible" id="about-what-div">
                     <div class="col-lg-left-6 col-md-left-6 col-sm-12 col-xs-12">
                         <h3 id="about-what"><b>WHAT</b> is V-Con?</h3>
                         <p id="about-what-p">
                             V-Con is an experience that is often equated with the words unbelievable, magical, and life-changing. Held in nine different countries since its conception in 2001, the V-Convention is an annual grand gathering hosted by The V, where you can expect a series of world-class motivational speeches and training sessions that are essential for professional networkers. State-of-the-art exhibitions are also set up for those who wish to get exclusive merchandise, know more about products, and avail of special promos.
                         </p>
                     </div>
+                    <img src="assets/svg/asset-board_one-planet.svg" id="one-planet" />
                 </div>
 
-                <div class="row">
-                    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-                        <img src="assets/svg/asset-board_one-people.svg" id="one-people" />
-                    </div>
-                    <div class="col-lg-2 col-md-2"></div>
+                <div class="row flex-between invisible" id="about-who-div">
+                    <img src="assets/svg/asset-board_one-people.svg" id="one-people" />
                     <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
                         <h3 id="about-who"><b>WHO</b> goes to V-Con?</h3>
                         <p  id="about-who-p">
@@ -152,23 +147,21 @@
                     </div>
                 </div>
 
-                <div class="row">
-                    <div class="col-lg-right-4 col-md-right-4 col-sm-12 col-xs-12">
-                        <img src="assets/svg/asset-board_one-purpose.svg" id="one-purpose" />
-                    </div>
+                <div class="row flex-between invisible" id="about-why-div">
                     <div class="col-lg-left-6 col-md-left-6 col-sm-12 col-xs-12">
                         <h3 id="about-why"><b>WHY</b> do you need to be at V-Con?</h3>
                         <p id="about-why-p">
                             As a partner who will be with you throughout your network marketing journey, The V aims to maximize this 5-day convention to help you claim your ultimate goal of gaining financial freedom. Whether you just signed up or have been in the business for several years, you have no better decision but to come home to V-Con and realize your limitless potential for greatness.
                         </p>
                     </div>
+                    <img src="assets/svg/asset-board_one-purpose.svg" id="one-purpose" />
                 </div>
             </div>
         </section>
 
         <section class="purple-blue-gradient">
             <!-- HISTORY OF VCON (THE TIMELINE) FROM 2001 TO 2017 -->
-            <div id="history">
+            <div id="history" class="invisible">
                 <h1 id="history-title" class="white">V-CON THROUGH HISTORY</h1>
                 <h4 id="history-tagline" class="white">
                     Before our 26th V-Con this coming 24 to 28 April 2018 at SPICE Arena in Penang Malaysia, here's where we've been changing lives since 2001
@@ -329,7 +322,7 @@
                 <p id="cta-par">
                     Get to know the family. Enter our home. Follow the calling. If you must make one great decision today, let this be THE ONE. Book your V-Malaysia 2018 tickets here!
                 </p>
-                
+
                 <button class="hallow-white">BUY TICKETS</button>
                 <!-- Insert logo here -->
                 <img src="assets/svg/asset-board_festive-logo.svg" id="festive-logo" />
@@ -447,7 +440,7 @@
             <div id="follow-us">
                 <h3 id="follow-us-title">FOLLOW US!</h3>
                 <p id="follow-us-par">LIKE. TAG. SHARE.</p>
-              
+
                 <!-- Social media icons and links (Facebook, Twitter, Instagram) -->
                 <i class="fa fa-facebook fa-3x"></i>
                 <i class="fa fa-twitter fa-3x"></i>

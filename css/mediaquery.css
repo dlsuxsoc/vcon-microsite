@@ -106,7 +106,7 @@
     grid-column-start: 1;
     grid-column-end: span 3;
     grid-row: 1;
-}         
+}
 .col-xs-left-2 {
     grid-column-start: 1;
     grid-column-end: span 2;
@@ -178,23 +178,98 @@
     grid-row: 1;
 }
 
+/* Responsive content */
+@media (max-width: 1225px) {
+    header, section, footer{
+        padding-left: 5%;
+        padding-right: 5%;
+        box-sizing: border-box;
+    }
+
+    #one-people, #one-planet, #one-purpose{
+        width: 40%;
+    }
+}
+
+/* Responsive hero section point realignment */
+@media (max-width: 935px){
+    #hero-content{
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #hero-content #white-logo, #hero-content #countdown > div:nth-child(4){
+        margin-right: 0;
+    }
+
+    #hero-content > div #tagline{
+        margin-top: 2em;
+    }
+
+    #hero-content > div{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+/* Responsive about section point realignment */
+@media (max-width: 935px){
+    #one-people, #one-planet, #one-purpose{
+        width: 70%;
+        padding: 1em 0;
+    }
+
+    #about > div > div{
+        flex-direction: column-reverse;
+    }
+
+    #about > div > div:nth-child(2){
+        flex-direction: column;
+    }
+
+    #about > div{
+        padding: 7em 5%;
+    }
+
+    #about > div h3, #about > div p{
+        text-align: center !important;
+    }
+
+    #about > div p{
+        padding: 2em 0;
+    }
+}
 
 /* Responsive nav bar */
-@media (max-width: 600px) {
+@media (max-width: 1089px) {
     #hamburger-icon {
         display: block;
     }
-    
+
     #nav-items {
         display: none;
     }
 }
 
+/* Responsive titles and taglines point adjustment */
+@media (max-width: 935px){
+    #history-title, #room-reservation-title, #news-and-updates-title,
+    #faqs-title, #contact-us-title, #follow-us-title{
+        padding: 10%;
+    }
+}
+
+/*
 @media (min-width: 600px) {
     #hamburger-icon {
         display: none;
     }
 }
+*/
 
 /* Columns for small devices (tablets) */
 
@@ -284,7 +359,7 @@
         grid-column-start: 1;
         grid-column-end: span 3;
         grid-row: 1;
-    }         
+    }
     .col-sm-left-2 {
         grid-column-start: 1;
         grid-column-end: span 2;
@@ -445,7 +520,7 @@
         grid-column-start: 1;
         grid-column-end: span 3;
         grid-row: 1;
-    }         
+    }
     .col-md-left-2 {
         grid-column-start: 1;
         grid-column-end: span 2;
@@ -606,7 +681,7 @@
         grid-column-start: 1;
         grid-column-end: span 3;
         grid-row: 1;
-    }         
+    }
     .col-lg-left-2 {
         grid-column-start: 1;
         grid-column-end: span 2;

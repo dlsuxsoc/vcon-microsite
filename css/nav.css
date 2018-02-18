@@ -23,6 +23,7 @@ nav.sticky{
     top: -17em;
     background-color: rgba(0, 0, 0, 0.8);
     padding: 0 10% !important;
+    z-index: 999;
 
     transition: ease 0.3s all;
     -webkit-transition: ease 0.3s all;
