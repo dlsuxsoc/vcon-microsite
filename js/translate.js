@@ -120,7 +120,7 @@ $(document).ready(function() {
             document.getElementById('faq-tab-four').innerHTML = "Will there be tickets for sale on the day of the event itself?";
             document.getElementById('faq-tab-four-par').innerHTML = "Yes. Only transactions made thru cash and credit card will be accommodated.";
             document.getElementById('faq-tab-five').innerHTML = "Will there be single-day event tickets available?";
-            document.getElementById('faq-tab-five').innerHTML = "No. The 5-day program we prepared for you is something that should be attended from Day 1 to 5 for a complete life-changing experience. It is a comprehensive, holistic event with an action-packed line-up of activities that are highly essential for your business.";
+            document.getElementById('faq-tab-five-par').innerHTML = "No. The 5-day program we prepared for you is something that should be attended from Day 1 to 5 for a complete life-changing experience. It is a comprehensive, holistic event with an action-packed line-up of activities that are highly essential for your business.";
 
             /* WHO, WHAT, WHY*/
             document.getElementById('about-title').innerHTML = "WWHO, WHAT, WHY";
