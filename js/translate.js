@@ -36,7 +36,7 @@ $(document).ready(function() {
             document.getElementById('contact_headnote').innerHTML = "CONTACT US"; */
 
             /* WHO, WHAT, WHY*/
-            document.getElementById('about-title').innerHTML = "WHO, WHAT, WHY";
+            document.getElementById('about-title').innerHTML = "WWHO, WHAT, WHY";
             document.getElementById('about-what').innerHTML = "<b>WHAT</b> is V-Con?";
             document.getElementById('about-what-p').innerHTML = "V-Con is an experience that is often equated with the words unbelievable, magical, and life-changing. Held in nine different countries since its conception in 2001, the V-Convention is an annual grand gathering hosted by The V, where you can expect a series of world-class motivational speeches and training sessions that are essential for professional networkers. State-of-the-art exhibitions are also set up for those who wish to get exclusive merchandise, know more about products, and avail of special promos.";
             document.getElementById('about-who').innerHTML = "<b>WHO</b> goes to V-Con?";
@@ -432,11 +432,11 @@ $(document).ready(function() {
             document.getElementById('contact-us-par-two').innerHTML = "<b>Pour toute demande de renseignements :</b><br/>Mr. Vijiyar Thevan <br/>vijiyar.thevan@the-v.net <br/>+601 2209 3793 <br/><br/>Ms. Kauri Subramaniam <br/>kauri.s@the-v.net <br/>+603 7965 8299";
 
             /* FOLLOW US */
-            document.getElementById('follow-us-title').innerHTML = "FOLLOW US!";
-            document.getElementById('follow-us-par').innerHTML = "LIKE. TAG. SHARE.";
+            document.getElementById('follow-us-title').innerHTML = "СЛЕДУЙ ЗА НАМИ!";
+            document.getElementById('follow-us-par').innerHTML = "ПОСТАВИТЬ ЛАЙК. ОТМЕТИТЬ. ПОДЕЛИТЬСЯ.";
         } /*END OF IF*/
 
-        //////////*  RU  *//////////
+        //////////*  RU  *//////////done
         if (x === '4') {
             document.getElementById('tagline').innerHTML = "БОЛЬШЕ НЕ ИЩИТЕ.<br/>ПРОДОЛЖАЙТЕ ИДТИ И МЕНЯТЬ СВОЮ ЖИЗНЬ НАВСЕГДА.";
 
@@ -516,6 +516,11 @@ $(document).ready(function() {
             document.getElementById('faq-tab-one').innerHTML = "Как купить билет?";
             document.getElementById('faq-tab-two').innerHTML = "Каковы условия платежа?";
             document.getElementById('faq-tab-three').innerHTML = "Что взять с собой?";
+            document.getElementById('faq-tab-three-par-sub-one').innerHTML = "Идя на регистрацию, нужно иметь при себе одно (1) удостоверение личности и копию письма с подтверждением, которое было отправлено на электронную почту после покупки билета. ";
+            document.getElementById('faq-tab-three-par-sub-two').innerHTML = "Достаточная сумма денег на 5 дней, предназначенных для покупки еды, напитков, на транспортные расходы, на приобретение товаров V-Кон, сувениров и т.д. Прими к сведению, что наличные деньги должны быть либо в долларах США, либо в малайзийских ринггитах.";
+            document.getElementById('faq-tab-three-par-sub-three').innerHTML = "Сменная одежда на 5 дней. Желательно иметь при себе запасную рубашку/футболку или полотенце, так как это жаркое время года в Пинанге (Малайзия).";
+            document.getElementById('faq-tab-three-par-sub-four').innerHTML = "Обязательно захвати с собой фотоаппарат, который запечатлеет наиболее памятные моменты V-Кон, которые ты потом покажешь своим близким, а также проспектам по возвращению домой.";
+            document.getElementById('faq-tab-three-par-sub-five').innerHTML = "Не забудь захватить с собой ручку и блокнот, чтобы записать наиболее важную и ценную информацию, которую ты услышишь на сцене.";
             document.getElementById('faq-tab-four').innerHTML = "Продолжится ли продажа билетов в день открытия конвенции?";
             document.getElementById('faq-tab-five').innerHTML = "Доступен ли к покупке билет всего на один день участия?";
 
@@ -530,7 +535,7 @@ $(document).ready(function() {
             document.getElementById('follow-us-par').innerHTML = "ПОСТАВИТЬ ЛАЙК. ОТМЕТИТЬ. ПОДЕЛИТЬСЯ.";
         } /*END OF IF*/
 
-        //////////*  INDONESIAN  *//////////
+        //////////*  INDONESIAN  *//////////done
         if (x === '5') {
             document.getElementById('tagline').innerHTML = "Look no further.<br/>Keep going and change your<br/>life forever.";
 
