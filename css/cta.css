@@ -1,3 +1,32 @@
 /*
     stylesheet for the call-to-action section
 */
+
+#call-to-action {
+    margin-top: 5%;
+}
+
+#cta-title {
+    margin: 0 auto;
+    width: 40%;
+    text-align: center;
+    color: white;
+    font-size: 3em;
+}
+
+#call-to-action p {
+    margin: 0 auto;
+    width: 43%;
+    text-align: center;
+    color: white;
+}
+
+#call-to-action > img {
+    display: block;
+    margin: 0 auto;
+    width: 60%;
+    height: auto;
+    position: relative;
+    top: 225px;
+}
+
