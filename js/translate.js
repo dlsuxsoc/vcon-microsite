@@ -292,9 +292,9 @@ $(document).ready(function() {
             document.getElementById('ig-dock-title').innerHTML = "#VCON18 BÜYÜSÜ DÜNYAYI SARIYOR";
 
             /* CONTACT US */
-            document.getElementById('contact-us-title').innerHTML = "CONTACT US";
-            document.getElementById('contact-us-par-one').innerHTML = "If you are having trouble accessing our website, or you have further questions which are not available in our FAQ page, please get in touch with us through our following email addresses.<br/><br/><b>Technical Support</b>: vbox@the-v.net <br/><b>Content and Translation Concerns</b>: vcomm@the-v.net";
-            document.getElementById('contact-us-par-two').innerHTML = "<b>For inquiries:</b><br/>Mr. Vijiyar Thevan <br/>vijiyar.thevan@the-v.net <br/>+601 2209 3793 <br/><br/>Ms. Kauri Subramaniam <br/>kauri.s@the-v.net <br/>+603 7965 8299";
+            document.getElementById('contact-us-title').innerHTML = "BİZİMLE İLETİŞİME GEÇİN";
+            document.getElementById('contact-us-par-one').innerHTML = "Web sitemize erişmekte sorun yaşıyorsanız veya SSS sayfamızda bulunmayan başka sorularınız varsa lütfen aşağıdaki e-posta adreslerimiz aracılığıyla bizimle iletişime geçin.<br/><br/><b>Teknik Destek</b>: vbox@the-v.net <br/><b>İçerik ve Çeviri için</b>: vcomm@the-v.net";
+            document.getElementById('contact-us-par-two').innerHTML = "<b>Danışmak için:</b><br/>Mr. Vijiyar Thevan <br/>vijiyar.thevan@the-v.net <br/>+601 2209 3793 <br/><br/>Ms. Kauri Subramaniam <br/>kauri.s@the-v.net <br/>+603 7965 8299";
 
             /* FOLLOW US */
             document.getElementById('follow-us-title').innerHTML = "BİZİ TAKİP EDİN!";
