@@ -2,10 +2,6 @@
     footer stylesheet for the contact us and social media links
 */
 
-#contact-us {
-    
-}
-
 #contact-us-title {
     margin: 0 auto;
     width: 30%;
@@ -14,11 +10,11 @@
     font-size: 2em;
 }
 
-#contact-us > div {
+#contact-us>div {
     margin-bottom: 10px;
 }
 
-#contact-us > div p{
+#contact-us>div p {
     margin: 20px auto;
     width: 50%;
     text-align: center;
@@ -30,7 +26,7 @@
     top: 120px;
 }
 
-#follow-us > h3 {
+#follow-us>h3 {
     margin: 0 auto;
     width: 30%;
     text-align: center;
@@ -38,14 +34,13 @@
     color: white;
 }
 
-#follow-us > p {
+#follow-us>p {
     font-weight: bold;
 }
 
-#follow-us > i {
-    /*
+#follow-us>i {
     display: inline-block;
     text-align: center;
-    width: 32%;
-    margin: 0 auto;*/
+    width: 32.99%;
+    margin: 0 auto;
 }
