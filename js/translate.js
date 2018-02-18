@@ -27,23 +27,14 @@ $(document).ready(function() {
         //////////*  ENGLISH  *//////////done
         if (x === '0') {
             document.getElementById('tagline').innerHTML = "Look no further.<br/>Keep going and change your<br/>life forever.";
-            /* document.getElementById('switch_lang').innerHTML = "BUY TICKETS";
+            document.getElementById('switch_lang').innerHTML = "BUY TICKETS";
+            /*
             document.getElementById('about_headnote').innerHTML = "ABOUT";
             document.getElementById('history_headnote').innerHTML = "HISTORY";
             document.getElementById('weareone_headnote').innerHTML = "WE ARE ONE";
             document.getElementById('news_headnote').innerHTML = "NEWS & UPDATES";
             document.getElementById('faqs_headnote').innerHTML = "FAQs";
             document.getElementById('contact_headnote').innerHTML = "CONTACT US"; */
-
-            /* WHO, WHAT, WHY*/
-            document.getElementById('about-title').innerHTML = "WWHO, WHAT, WHY";
-            document.getElementById('about-what').innerHTML = "<b>WHAT</b> is V-Con?";
-            document.getElementById('about-what-p').innerHTML = "V-Con is an experience that is often equated with the words unbelievable, magical, and life-changing. Held in nine different countries since its conception in 2001, the V-Convention is an annual grand gathering hosted by The V, where you can expect a series of world-class motivational speeches and training sessions that are essential for professional networkers. State-of-the-art exhibitions are also set up for those who wish to get exclusive merchandise, know more about products, and avail of special promos.";
-            document.getElementById('about-who').innerHTML = "<b>WHO</b> goes to V-Con?";
-            document.getElementById('about-who-p').innerHTML = "It is open to all IRs of QNET who wish to gain a better sense of their network marketing journey. To date, V-Con has gathered thousands of attendees from different parts of world, with record-breaking numbers to boot.";
-            document.getElementById('about-why').innerHTML = "<b>WHY</b> do you need to be at V-Con?";
-            document.getElementById('about-why-p').innerHTML = "As a partner who will be with you throughout your network marketing journey, The V aims to maximize this 5-day convention to help you claim your ultimate goal of gaining financial freedom. Whether you just signed up or have been in the business for several years, you have no better decision but to come home to V-Con and realize your limitless potential for greatness.";
-
 
             /* HISTORY **/
             document.getElementById('history-title').innerHTML = "V-CON THROUGH HISTORY";
@@ -103,6 +94,14 @@ $(document).ready(function() {
             /* INSTAGRAM POSTS */
             document.getElementById('ig-dock-title').innerHTML = "THE #VCON18 MAGIC TAKING OVER THE WORLD";
 
+            /* CONTACT US */
+            document.getElementById('contact-us-title').innerHTML = "CONTACT US";
+            document.getElementById('contact-us-par-one').innerHTML = "If you are having trouble accessing our website, or you have further questions which are not available in our FAQ page, please get in touch with us through our following email addresses.<br/><br/><b>Technical Support</b>: vbox@the-v.net <br/><b>Content and Translation Concerns</b>: vcomm@the-v.net";
+            document.getElementById('contact-us-par-two').innerHTML = "<b>For inquiries:</b><br/>Mr. Vijiyar Thevan <br/>vijiyar.thevan@the-v.net <br/>+601 2209 3793 <br/><br/>Ms. Kauri Subramaniam <br/>kauri.s@the-v.net <br/>+603 7965 8299";
+
+            /* FOLLOW US */
+            document.getElementById('follow-us-title').innerHTML = "FOLLOW US!";
+            document.getElementById('follow-us-par').innerHTML = "LIKE. TAG. SHARE.";
 
             /* FAQ **/
             document.getElementById('faqs-title').innerHTML = "FREQUENTLY ASKED QUESTIONS";
@@ -123,22 +122,21 @@ $(document).ready(function() {
             document.getElementById('faq-tab-five').innerHTML = "Will there be single-day event tickets available?";
             document.getElementById('faq-tab-five').innerHTML = "No. The 5-day program we prepared for you is something that should be attended from Day 1 to 5 for a complete life-changing experience. It is a comprehensive, holistic event with an action-packed line-up of activities that are highly essential for your business.";
 
-
-            /* CONTACT US */
-            document.getElementById('contact-us-title').innerHTML = "CONTACT US";
-            document.getElementById('contact-us-par-one').innerHTML = "If you are having trouble accessing our website, or you have further questions which are not available in our FAQ page, please get in touch with us through our following email addresses.<br/><br/><b>Technical Support</b>: vbox@the-v.net <br/><b>Content and Translation Concerns</b>: vcomm@the-v.net";
-            document.getElementById('contact-us-par-two').innerHTML = "<b>For inquiries:</b><br/>Mr. Vijiyar Thevan <br/>vijiyar.thevan@the-v.net <br/>+601 2209 3793 <br/><br/>Ms. Kauri Subramaniam <br/>kauri.s@the-v.net <br/>+603 7965 8299";
-
-
-            /* FOLLOW US */
-            document.getElementById('follow-us-title').innerHTML = "FOLLOW US!";
-            document.getElementById('follow-us-par').innerHTML = "LIKE. TAG. SHARE.";
+            /* WHO, WHAT, WHY*/
+            document.getElementById('about-title').innerHTML = "WWHO, WHAT, WHY";
+            document.getElementById('about-what').innerHTML = "<b>WHAT</b> is V-Con?";
+            document.getElementById('about-what-p').innerHTML = "V-Con is an experience that is often equated with the words unbelievable, magical, and life-changing. Held in nine different countries since its conception in 2001, the V-Convention is an annual grand gathering hosted by The V, where you can expect a series of world-class motivational speeches and training sessions that are essential for professional networkers. State-of-the-art exhibitions are also set up for those who wish to get exclusive merchandise, know more about products, and avail of special promos.";
+            document.getElementById('about-who').innerHTML = "<b>WHO</b> goes to V-Con?";
+            document.getElementById('about-who-p').innerHTML = "It is open to all IRs of QNET who wish to gain a better sense of their network marketing journey. To date, V-Con has gathered thousands of attendees from different parts of world, with record-breaking numbers to boot.";
+            document.getElementById('about-why').innerHTML = "<b>WHY</b> do you need to be at V-Con?";
+            document.getElementById('about-why-p').innerHTML = "As a partner who will be with you throughout your network marketing journey, The V aims to maximize this 5-day convention to help you claim your ultimate goal of gaining financial freedom. Whether you just signed up or have been in the business for several years, you have no better decision but to come home to V-Con and realize your limitless potential for greatness.";
+ 
         } /*END OF IF*/
 
-        //////////*  ARABIC  *//////////
+        //////////*  ARABIC  *////////// lacking history call to action faq
         if (x === '1') {
             document.getElementById('tagline').innerHTML = "لا تبحث أكثر من ذلك.<br/>استمر في التقدم، وغيّر حياتك إلى الأبد.";
-            /* document.getElementById('buy_ticket_btn').innerHTML = "اشتر تذكرة"; */
+            document.getElementById('switch_lang').innerHTML = "اشتر تذكرة";
 
             /* WHO, WHAT, WHY*/
             document.getElementById('about-title').innerHTML = "من، ماذا، لماذا";
@@ -204,9 +202,6 @@ $(document).ready(function() {
             document.getElementById('btn-apollo').innerHTML = "ابحث في أبولو الآن";
 
 
-
-
-
             /* NEWS AND UPDATES */
             document.getElementById('news-and-updates-title').innerHTML = "أخبار ومستجدات";
             document.getElementById('news-and-updates-par').innerHTML = "اقرأ | شاهد | اطلع";
@@ -233,18 +228,10 @@ $(document).ready(function() {
             document.getElementById('follow-us-par').innerHTML = "إعجاب. أوسم. شارك.";
         } /*END OF IF*/
 
-        //////////*  TURKISH  *//////////
+        //////////*  TURKISH  *//////////done
         if (x === '2') {
             document.getElementById('tagline').innerHTML = "BAŞKA YERDE ARAMA.<br/>DEVAM EDİN VE HAYATINIZI SONSUZA <br/>DEK DEĞİŞTİRİN.";
-
-            /* WHO, WHAT, WHY*/
-            document.getElementById('about-title').innerHTML = "KİM, NE, NEDEN";
-            document.getElementById('about-what').innerHTML = "V-Con? <b>NEDİR?</b>";
-            document.getElementById('about-what-p').innerHTML = "V-Con, inanılmaz, büyülü ve yaşamı değiştiren kelimelerle birlikte sık sık kullanılan bir deneyimdir. 2001'deki anlayışından bu yana dokuz farklı ülkede düzenlenen V-Convention, The V tarafından barındırılan yıllık kapsamlı bir toplantıdır ve burada profesyonel networkerlar için gerekli olan bir dizi dünya çapında motivasyonel konuşmalar ve eğitim oturumları bekleyebilirsiniz. En yeni sergiler, özel eşyalar almak, ürünler hakkında daha fazla bilgi sahibi olmak ve özel promosyon almak isteyenler için kurulmuştur.";
-            document.getElementById('about-who').innerHTML = "V-Con’a <b>KİM</b> gider?";
-            document.getElementById('about-who-p').innerHTML = "Network pazarlama yolculuğunu daha iyi anlamak isteyen QNET'in tüm IR'lerine açıktır. Bugüne kadar V-Con, dünyanın çeşitli yerlerinden gelen binlerce katılımcıyı bir araya getirmeyi başardı.";
-            document.getElementById('about-why').innerHTML = "<b>NEDEN</b> V-Con’da olmalısınız?";
-            document.getElementById('about-why-p').innerHTML = "Network pazarlama yolculuğunuz boyunca sizinle birlikte olacak bir ortak olarak The V, mali özgürlüğü kazanma nihai hedefinizi talep etmenize yardımcı olmak için bu 5 günlük toplantıyı en üst düzeye çıkarmayı amaçlıyor. İster birkaç yıldır bu işin içinde olun ya da yeni kaydolmuş olun, evinize V-Con'a gelip sınırsız mükemmeliyet potansiyelinizi gerçekleştirmekten daha iyi bir karar veremezsiniz.";
+            document.getElementById('switch_lang').innerHTML = "BİLET ALIN";
 
             /* HISTORY **/
             document.getElementById('history-title').innerHTML = "TARİH BOYUNCA V-CON";
@@ -287,7 +274,7 @@ $(document).ready(function() {
 
             /* Call-to-Action */
             document.getElementById('cta-title').innerHTML = "BİZ BİRİZ.";
-            document.getElementById('cta-par').innerHTML = "Ailemizi tanıyın. Evimize gelin. Çağrıyı takip edin.";
+            document.getElementById('cta-par').innerHTML = "Ailemizi tanıyın. Evimize gelin. Çağrıyı takip edin. Bugün büyük bir karar vermeniz gerekirse, o kararın BU olmasını izin verin. V-Malaysia 2018 biletlerinizi buradan alın!";
 
 
             /* ROOM RESERVATION */
@@ -304,15 +291,6 @@ $(document).ready(function() {
             /* INSTAGRAM POSTS */
             document.getElementById('ig-dock-title').innerHTML = "#VCON18 BÜYÜSÜ DÜNYAYI SARIYOR";
 
-            /* FAQ **/
-            document.getElementById('faqs-title').innerHTML = "Sıkça Sorulan Sorular";
-            document.getElementById('faq-tab-one').innerHTML = "Nasıl bir bilet alırım?";
-            document.getElementById('faq-tab-two').innerHTML = "Kullanılabilir ödeme koşulları nedir?";
-            document.getElementById('faq-tab-three').innerHTML = "Ne getirmeli?";
-            document.getElementById('faq-tab-four').innerHTML = "Etkinliğin yapıldığı gün bilet satılacak mı?";
-            document.getElementById('faq-tab-five').innerHTML = "Tek günlük etkinlik biletleri var mı?";
-
-
             /* CONTACT US */
             document.getElementById('contact-us-title').innerHTML = "CONTACT US";
             document.getElementById('contact-us-par-one').innerHTML = "If you are having trouble accessing our website, or you have further questions which are not available in our FAQ page, please get in touch with us through our following email addresses.<br/><br/><b>Technical Support</b>: vbox@the-v.net <br/><b>Content and Translation Concerns</b>: vcomm@the-v.net";
@@ -321,11 +299,40 @@ $(document).ready(function() {
             /* FOLLOW US */
             document.getElementById('follow-us-title').innerHTML = "BİZİ TAKİP EDİN!";
             document.getElementById('follow-us-par').innerHTML = "BEĞEN. ETİKETLE. PAYLAŞ.";
+
+            /* FAQ **/
+            document.getElementById('faqs-title').innerHTML = "Sıkça Sorulan Sorular";
+            document.getElementById('faq-tab-one').innerHTML = "Nasıl bir bilet alırım?";
+            document.getElementById('faq-tab-one-par').innerHTML = "V-Malaysia 2018 biletinizi satın almak için burayı tıklayın.";
+            document.getElementById('faq-tab-two').innerHTML = "Kullanılabilir ödeme koşulları nedir?";
+            document.getElementById('faq-tab-two-par').innerHTML = "Şu anda nakit veya kredi kartı ile (Visa ve MasterCard) ödeme yapabilirsiniz.";
+            document.getElementById('faq-tab-three').innerHTML = "Ne getirmeli?";
+            document.getElementById('faq-tab-three-par').innerHTML = "V-Con'a mı gideceksiniz? Aşağıda, getirmeniz gereken 5 önemli şey var:";
+            document.getElementById('faq-tab-three-par-sub-one').innerHTML = "Kayıt sırasında, biletinizi aldıktan hemen sonra size e-posta yoluyla gönderilecek onay mektubunun kopyasını ve bir (1) geçerli kimliğinizi getirin.";
+            document.getElementById('faq-tab-three-par-sub-two').innerHTML = "Yiyecek, içecek, ulaşım, V-Con eşyaları, hediyelik eşyalar vb. için harcayabileceğiniz 5 gün için yeterli para. USD veya MYR olduğundan emin olun.";
+            document.getElementById('faq-tab-three-par-sub-three').innerHTML = "5 gün boyunca yetecek giysiler. Penang, Malezya'da bu zamanlarda ekstra sıcak olduğundan ekstra gömlek veya havlu getirdiğinizden emin olun.";
+            document.getElementById('faq-tab-three-par-sub-four').innerHTML = "Değerli V-Con anılarınızı en son haline getirmek için yanınıza bir fotoğraf makinesi alın ve eve döndüğünüzde ailenize ve gelecekteki kayıtlarınıza gösterebileceğiniz bir şeyleriniz olsun.";
+            document.getElementById('faq-tab-three-par-sub-five').innerHTML = "Sahnedeki değerli oturumların tadını çıkarırken, ciddi notlar almak için kendi kaleminizi ve defterinizi getirdiğinizden emin olun!";
+            document.getElementById('faq-tab-four').innerHTML = "Etkinliğin yapıldığı gün bilet satılacak mı?";
+            document.getElementById('faq-tab-four-par').innerHTML = "Evet. Sadece nakit ve kredi kartı ile yapılan işlemler alınacaktır.";
+            document.getElementById('faq-tab-five').innerHTML = "Tek günlük etkinlik biletleri var mı?";
+            document.getElementById('faq-tab-five-par').innerHTML = "Hayır. Sizin için hazırladığımız 5 günlük program, yaşamı değiştirecek bir deneyim için 1. Gün'den 5. Gün'e kadar devam etmeniz gereken bir şeydir. Bu, işiniz için son derece gerekli olan, aksiyon dolu bir etkinlik grubuyla kapsamlı, bütüncül bir etkinliktir.";
+
+            /* WHO, WHAT, WHY*/
+            document.getElementById('about-title').innerHTML = "KİM, NE, NEDEN";
+            document.getElementById('about-what').innerHTML = "V-Con? <b>NEDİR?</b>";
+            document.getElementById('about-what-p').innerHTML = "V-Con, inanılmaz, büyülü ve yaşamı değiştiren kelimelerle birlikte sık sık kullanılan bir deneyimdir. 2001'deki anlayışından bu yana dokuz farklı ülkede düzenlenen V-Convention, The V tarafından barındırılan yıllık kapsamlı bir toplantıdır ve burada profesyonel networkerlar için gerekli olan bir dizi dünya çapında motivasyonel konuşmalar ve eğitim oturumları bekleyebilirsiniz. En yeni sergiler, özel eşyalar almak, ürünler hakkında daha fazla bilgi sahibi olmak ve özel promosyon almak isteyenler için kurulmuştur.";
+            document.getElementById('about-who').innerHTML = "V-Con’a <b>KİM</b> gider?";
+            document.getElementById('about-who-p').innerHTML = "Network pazarlama yolculuğunu daha iyi anlamak isteyen QNET'in tüm IR'lerine açıktır. Bugüne kadar V-Con, dünyanın çeşitli yerlerinden gelen binlerce katılımcıyı bir araya getirmeyi başardı.";
+            document.getElementById('about-why').innerHTML = "<b>NEDEN</b> V-Con’da olmalısınız?";
+            document.getElementById('about-why-p').innerHTML = "Network pazarlama yolculuğunuz boyunca sizinle birlikte olacak bir ortak olarak The V, mali özgürlüğü kazanma nihai hedefinizi talep etmenize yardımcı olmak için bu 5 günlük toplantıyı en üst düzeye çıkarmayı amaçlıyor. İster birkaç yıldır bu işin içinde olun ya da yeni kaydolmuş olun, evinize V-Con'a gelip sınırsız mükemmeliyet potansiyelinizi gerçekleştirmekten daha iyi bir karar veremezsiniz.";
+
         } /*END OF IF*/
 
         //////////*  FRENCH  *//////////done
         if (x === '3') {
             document.getElementById('tagline').innerHTML = "Ne cherchez pas plus loin.<br/>Continuez et changez votre vie <br/>pour toujours.";
+            document.getElementById('switch_lang').innerHTML = "ACHETER UN BILLET";
             /* document.getElementById('buy_ticket_btn').innerHTML = "ACHETER UN BILLET";
             document.getElementById('about_headnote').innerHTML = "ABOUT";
             document.getElementById('history_headnote').innerHTML = "HISTORY";
@@ -333,17 +340,6 @@ $(document).ready(function() {
             document.getElementById('news_headnote').innerHTML = "ACTUALITÉS ET MISES À JOUR";
             document.getElementById('faqs_headnote').innerHTML = "FAQs";
             document.getElementById('contact_headnote').innerHTML = "NOUS CONTACTER"; */
-
-
-            /* WHO, WHAT, WHY*/
-            document.getElementById('about-title').innerHTML = "QUI, QUOI, POURQUOI";
-            document.getElementById('about-what').innerHTML = "C’est QUOI le V-Con?";
-            document.getElementById('about-what-p').innerHTML = "Le V-Con est une expérience qui est souvent assimilée à des mots incroyables, magiques et qui changent la vie. Tenu dans neuf pays depuis sa conception en 2001, le V-Convention est un grand rassemblement annuel organisé par The V, où vous pouvez vous attendre à une série de discours de motivation et de séances de formations de classe mondiale essentiels pour les networkers professionnels. Des expositions ultramodernes sont également organisées pour ceux qui souhaitent obtenir des produits exclusifs, apprenez plus sur les produits et profitez des promos spéciales.";
-            document.getElementById('about-who').innerHTML = "QUI va au V-Con?";
-            document.getElementById('about-who-p').innerHTML = "Il est ouvert à tous les IR de QNET qui souhaitent mieux comprendre leur voyage du marketing de réseau. À ce jour, le V-Con a rassemblé des milliers de participants de différentes parties du monde, avec un nombre record en plus.";
-            document.getElementById('about-why').innerHTML = "POURQUOI devez-vous être au V-Con?";
-            document.getElementById('about-why-p').innerHTML = "En tant que partenaire qui sera avec vous tout au long de votre voyage du marketing de réseau, The V vise à maximiser cette convention de 5 jours pour vous aider à réclamer votre but ultime d’obtention de la liberté financière. Que vous veniez de vous inscrire ou que vous soyez dans l'entreprise depuis plusieurs années, vous n'avez pas de meilleure décision que de revenir chez vous au V-Con et de réaliser votre grand potentiel sans limites.";
-
 
             /* HISTORY */
             document.getElementById('history-title').innerHTML = "LE V-CON DANS L'HISTOIRE";
@@ -388,7 +384,7 @@ $(document).ready(function() {
 
             /* Call-to-Action */
             document.getElementById('cta-title').innerHTML = "NOUS SOMMES UN";
-            document.getElementById('cta-par').innerHTML = "Apprenez à connaître la famille. Entrez dans notre maison. Suivez l'appel.";
+            document.getElementById('cta-par').innerHTML = "Apprenez à connaître la famille. Entrez dans notre maison. Suivez l'appel. Si vous devez prendre une grande décision aujourd'hui, que ce soit CELLE-LÀ. Réservez vos billets du V-Malaysia 2018 ici!";
 
 
             /* ROOM RESERVATION */
@@ -405,24 +401,6 @@ $(document).ready(function() {
             /* INSTAGRAM POSTS */
             document.getElementById('ig-dock-title').innerHTML = "LA MAGIE DU #VCON18 PREND LE CONTRÔLE DU MONDE";
 
-            /* FAQ */
-            document.getElementById('faqs-title').innerHTML = "Questions Fréquemment Posées";
-            document.getElementById('faq-tab-one').innerHTML = "Comment puis-je acheter un billet?";
-            document.getElementById('faq-tab-one-par').innerHTML = "Cliquez ici pour acheter votre billet V-Malaysia 2018.";
-            document.getElementById('faq-tab-two').innerHTML = "Quelles sont les modalités de paiement disponibles?";
-            document.getElementById('faq-tab-two-par').innerHTML = "Actuellement, vous pouvez payer en espèces ou par carte de crédit (Visa et MasterCard).";
-            document.getElementById('faq-tab-three').innerHTML = "Que faut-il apporter?";
-            document.getElementById('faq-tab-three-par').innerHTML = "Vous allez au V-Con? Voici les 5 choses importantes que vous devez apporter :";
-            document.getElementById('faq-tab-three-par-sub-one').innerHTML = "Lors de l'inscription, apportez une (1) pièce d'identité valide et une copie de la lettre de confirmation qui vous sera envoyée par courriel juste après l'achat de votre billet.";
-            document.getElementById('faq-tab-three-par-sub-two').innerHTML = "Ayez suffisamment d'argent de poche pour 5 jours, que vous pourrez dépenser pour la nourriture, la boisson, le transport, les produits du V-Con, les souvenirs, etc. Assurez-vous d'avoir votre argent en USD ou MYR.";
-            document.getElementById('faq-tab-three-par-sub-three').innerHTML = "De bons vêtements pour 5 jours. Assurez-vous d’apporter des chemises ou serviettes supplémentaires car il fait très chaud à Penang, en Malaisie à cette époque.";
-            document.getElementById('faq-tab-three-par-sub-four').innerHTML = "Prenez un appareil photo avec vous pour garder longtemps vos précieux souvenirs du V-Con et ayez quelque chose que vous pourrez montrer à votre famille et vos futurs prospects lorsque vous rentrerez chez vous.";
-            document.getElementById('faq-tab-three-par-sub-five').innerHTML = "Comme vous voulez savourez chaque session précieuse sur scène, assurez-vous d’apporter votre propre stylo et votre carnet pour une bonne prise de note!";
-            document.getElementById('faq-tab-four').innerHTML = "Y aura-t-il des billets à vendre le jour même de l'événement?";
-            document.getElementById('faq-tab-four-par').innerHTML = "Oui. Seules les transactions effectuées en espèces et par carte de crédit seront prises en compte.";
-            document.getElementById('faq-tab-five').innerHTML = "Y aura-t-il des billets d'une seule journée d'événement disponibles?";
-            document.getElementById('faq-tab-five-par').innerHTML = "Non. Le programme de 5 jours que nous avons préparé pour vous est quelque chose auquel il faut assister du 1er au 5e jour pour une expérience complète qui change la vie. Il s'agit d'un événement complet et holistique avec une gamme d’activités riches en action très essentielles pour votre entreprise.";
-
 
             /* CONTACT US */
             document.getElementById('contact-us-title').innerHTML = "NOUS CONTACTER";
@@ -430,23 +408,42 @@ $(document).ready(function() {
             document.getElementById('contact-us-par-two').innerHTML = "<b>Pour toute demande de renseignements :</b><br/>Mr. Vijiyar Thevan <br/>vijiyar.thevan@the-v.net <br/>+601 2209 3793 <br/><br/>Ms. Kauri Subramaniam <br/>kauri.s@the-v.net <br/>+603 7965 8299";
 
             /* FOLLOW US */
-            document.getElementById('follow-us-title').innerHTML = "СЛЕДУЙ ЗА НАМИ!";
-            document.getElementById('follow-us-par').innerHTML = "ПОСТАВИТЬ ЛАЙК. ОТМЕТИТЬ. ПОДЕЛИТЬСЯ.";
+            document.getElementById('follow-us-title').innerHTML = "NOUS SUIVRE!";
+            document.getElementById('follow-us-par').innerHTML = "AIMER. TAG. PARTAGER.";
+
+             /* FAQ */
+             document.getElementById('faqs-title').innerHTML = "Questions Fréquemment Posées";
+             document.getElementById('faq-tab-one').innerHTML = "Comment puis-je acheter un billet?";
+             document.getElementById('faq-tab-one-par').innerHTML = "Cliquez ici pour acheter votre billet V-Malaysia 2018.";
+             document.getElementById('faq-tab-two').innerHTML = "Quelles sont les modalités de paiement disponibles?";
+             document.getElementById('faq-tab-two-par').innerHTML = "Actuellement, vous pouvez payer en espèces ou par carte de crédit (Visa et MasterCard).";
+             document.getElementById('faq-tab-three').innerHTML = "Que faut-il apporter?";
+             document.getElementById('faq-tab-three-par').innerHTML = "Vous allez au V-Con? Voici les 5 choses importantes que vous devez apporter:";
+             document.getElementById('faq-tab-three-par-sub-one').innerHTML = "Lors de l'inscription, apportez une (1) pièce d'identité valide et une copie de la lettre de confirmation qui vous sera envoyée par courriel juste après l'achat de votre billet.";
+             document.getElementById('faq-tab-three-par-sub-two').innerHTML = "Ayez suffisamment d'argent de poche pour 5 jours, que vous pourrez dépenser pour la nourriture, la boisson, le transport, les produits du V-Con, les souvenirs, etc. Assurez-vous d'avoir votre argent en USD ou MYR.";
+             document.getElementById('faq-tab-three-par-sub-three').innerHTML = "De bons vêtements pour 5 jours. Assurez-vous d’apporter des chemises ou serviettes supplémentaires car il fait très chaud à Penang, en Malaisie à cette époque.";
+             document.getElementById('faq-tab-three-par-sub-four').innerHTML = "Prenez un appareil photo avec vous pour garder longtemps vos précieux souvenirs du V-Con et ayez quelque chose que vous pourrez montrer à votre famille et vos futurs prospects lorsque vous rentrerez chez vous.";
+             document.getElementById('faq-tab-three-par-sub-five').innerHTML = "Comme vous voulez savourez chaque session précieuse sur scène, assurez-vous d’apporter votre propre stylo et votre carnet pour une bonne prise de note!";
+             document.getElementById('faq-tab-four').innerHTML = "Y aura-t-il des billets à vendre le jour même de l'événement?";
+             document.getElementById('faq-tab-four-par').innerHTML = "Oui. Seules les transactions effectuées en espèces et par carte de crédit seront prises en compte.";
+             document.getElementById('faq-tab-five').innerHTML = "Y aura-t-il des billets d'une seule journée d'événement disponibles?";
+             document.getElementById('faq-tab-five-par').innerHTML = "Non. Le programme de 5 jours que nous avons préparé pour vous est quelque chose auquel il faut assister du 1er au 5e jour pour une expérience complète qui change la vie. Il s'agit d'un événement complet et holistique avec une gamme d’activités riches en action très essentielles pour votre entreprise.";
+ 
+            /* WHO, WHAT, WHY*/
+            document.getElementById('about-title').innerHTML = "QUI, QUOI, POURQUOI";
+            document.getElementById('about-what').innerHTML = "C’est QUOI le V-Con?";
+            document.getElementById('about-what-p').innerHTML = "Le V-Con est une expérience qui est souvent assimilée à des mots incroyables, magiques et qui changent la vie. Tenu dans neuf pays depuis sa conception en 2001, le V-Convention est un grand rassemblement annuel organisé par The V, où vous pouvez vous attendre à une série de discours de motivation et de séances de formations de classe mondiale essentiels pour les networkers professionnels. Des expositions ultramodernes sont également organisées pour ceux qui souhaitent obtenir des produits exclusifs, apprenez plus sur les produits et profitez des promos spéciales.";
+            document.getElementById('about-who').innerHTML = "QUI va au V-Con?";
+            document.getElementById('about-who-p').innerHTML = "Il est ouvert à tous les IR de QNET qui souhaitent mieux comprendre leur voyage du marketing de réseau. À ce jour, le V-Con a rassemblé des milliers de participants de différentes parties du monde, avec un nombre record en plus.";
+            document.getElementById('about-why').innerHTML = "POURQUOI devez-vous être au V-Con?";
+            document.getElementById('about-why-p').innerHTML = "En tant que partenaire qui sera avec vous tout au long de votre voyage du marketing de réseau, The V vise à maximiser cette convention de 5 jours pour vous aider à réclamer votre but ultime d’obtention de la liberté financière. Que vous veniez de vous inscrire ou que vous soyez dans l'entreprise depuis plusieurs années, vous n'avez pas de meilleure décision que de revenir chez vous au V-Con et de réaliser votre grand potentiel sans limites.";
+
         } /*END OF IF*/
 
         //////////*  RU  *//////////done
         if (x === '4') {
             document.getElementById('tagline').innerHTML = "БОЛЬШЕ НЕ ИЩИТЕ.<br/>ПРОДОЛЖАЙТЕ ИДТИ И МЕНЯТЬ СВОЮ ЖИЗНЬ НАВСЕГДА.";
-
-            /* WHO, WHAT, WHY*/
-            document.getElementById('about-title').innerHTML = "КТО,  ЧТО, ПОЧЕМУ";
-            document.getElementById('about-what').innerHTML = "<b>ЧТО</b> такое  V-Con?";
-            document.getElementById('about-what-p').innerHTML = "V-Con - это опыт, о котором зачастую отзываются такими словами, как невероятный, волшебный и меняющий жизнь. V-Convention, состоявшаяся в девяти разных странах с момента ее создания в 2001 году, является грандиозной ежегодной встречей нетворкеров, организованной The V, где вас ждут серии мотивационных выступлений и тренингов мирового уровня, которые так необходимы для профессиональных нетворкеров. В месте проведения конвенции также обустраиваются выставки, ориентированные на тех, кто желает приобрести эксклюзивные товары, узнать больше информации о продуктах и воспользоваться специальными промо-акциями.";
-            document.getElementById('about-who').innerHTML = "КТО</b> участвует в V-Con?";
-            document.getElementById('about-who-p').innerHTML = "Участвовать в мероприятии могут все IR QNET, желающие лучше познать свое путешествие в сетевом маркетинге. На сегодняшний день V-Con собрала тысячи участников из разных уголков мира с рекордным числом участников.";
-            document.getElementById('about-why').innerHTML = "<b>ПОЧЕМУ </b> нужно быть на V-Con?";
-            document.getElementById('about-why-p').innerHTML = "Будучи партнером, который будет рядом с вами во время вашего пути в сетевом маркетинге, The V стремится сделать ваш опыт участия в пятидневной конвенции максимально полезным, и помочь вам заявить о своей главной цели - обретение финансовой свободы. Если вы только что зарегистрировались или в бизнесе вы уже несколько лет, невозможно принять более актуальное решение, кроме как вернуться на V-Con и реализовать свой безграничный потенциал величия.";
-
+            document.getElementById('switch_lang').innerHTML = "КУПИТЬ БИЛЕТ";
 
             /* HISTORY */
             document.getElementById('history-title').innerHTML = "V-CON В ИСТОРИИ";
@@ -489,11 +486,9 @@ $(document).ready(function() {
             document.getElementById('vcon-2017-par').innerHTML = "Третий год подряд V-Con состоялась и в Пинанге (Малайзия), и в Дубае (ОАЭ), и число участников на обоих мероприятиях побило все рекорды. Теглайном обоих конвенций стала фраза “DO IT NOW” (Делай это сейчас). На сцену вышла мотивационный оратор Муниба Мазари, и рассказанная история ее жизни вызвала огромное чувство любви и восхищения у тысяч мечтателей на at V-Malaysia и V-UAE, таким образом ее имя было добавлено в созвездие невероятных людей, присоединившихся в нашей семье, что делает опыт участия в V-Con поистине уникальным.";
 
 
-
             /* Call-to-Action */
             document.getElementById('cta-title').innerHTML = "МЫ ЕДИНЫ";
-            document.getElementById('cta-par').innerHTML = "Познакомься с семьей. Войди в наш дом. Следуй своему призванию.";
-
+            document.getElementById('cta-par').innerHTML = "Познакомься с семьей. Войди в наш дом. Следуй своему призванию. Если сегодня ты должен принять одно грандиозное решение, то прими ИМЕННО ЭТО решение. Забронируй свой билет на V-Malaysia 2018 здесь!";
 
             /* ROOM RESERVATION */
 
@@ -509,20 +504,6 @@ $(document).ready(function() {
             /* INSTAGRAM POSTS */
             document.getElementById('ig-dock-title').innerHTML = "МАГИЯ #VCON18 ПОКОРЯЕТ МИР";
 
-            /* FAQ */
-            document.getElementById('faqs-title').innerHTML = "Часто задаваемые вопросы";
-            document.getElementById('faq-tab-one').innerHTML = "Как купить билет?";
-            document.getElementById('faq-tab-two').innerHTML = "Каковы условия платежа?";
-            document.getElementById('faq-tab-three').innerHTML = "Что взять с собой?";
-            document.getElementById('faq-tab-three-par-sub-one').innerHTML = "Идя на регистрацию, нужно иметь при себе одно (1) удостоверение личности и копию письма с подтверждением, которое было отправлено на электронную почту после покупки билета. ";
-            document.getElementById('faq-tab-three-par-sub-two').innerHTML = "Достаточная сумма денег на 5 дней, предназначенных для покупки еды, напитков, на транспортные расходы, на приобретение товаров V-Кон, сувениров и т.д. Прими к сведению, что наличные деньги должны быть либо в долларах США, либо в малайзийских ринггитах.";
-            document.getElementById('faq-tab-three-par-sub-three').innerHTML = "Сменная одежда на 5 дней. Желательно иметь при себе запасную рубашку/футболку или полотенце, так как это жаркое время года в Пинанге (Малайзия).";
-            document.getElementById('faq-tab-three-par-sub-four').innerHTML = "Обязательно захвати с собой фотоаппарат, который запечатлеет наиболее памятные моменты V-Кон, которые ты потом покажешь своим близким, а также проспектам по возвращению домой.";
-            document.getElementById('faq-tab-three-par-sub-five').innerHTML = "Не забудь захватить с собой ручку и блокнот, чтобы записать наиболее важную и ценную информацию, которую ты услышишь на сцене.";
-            document.getElementById('faq-tab-four').innerHTML = "Продолжится ли продажа билетов в день открытия конвенции?";
-            document.getElementById('faq-tab-five').innerHTML = "Доступен ли к покупке билет всего на один день участия?";
-
-
             /* CONTACT US */
             document.getElementById('contact-us-title').innerHTML = "КОНТАКТЫ";
             document.getElementById('contact-us-par-one').innerHTML = "При наличии проблем, связанных с доступом на наш вебсайт, а также по другим вопросам, ответ на которые не найден на нашей странице вопросов и ответов, просьба обращаться по адресам электронной почты, указанным ниже.<br/><br/><b>Техническая поддержка</b>: vbox@the-v.net <br/><b>По вопросам, связанным с информационным наполнением и переводом</b>: vcomm@the-v.net";
@@ -531,21 +512,40 @@ $(document).ready(function() {
             /* FOLLOW US */
             document.getElementById('follow-us-title').innerHTML = "СЛЕДУЙ ЗА НАМИ!";
             document.getElementById('follow-us-par').innerHTML = "ПОСТАВИТЬ ЛАЙК. ОТМЕТИТЬ. ПОДЕЛИТЬСЯ.";
-        } /*END OF IF*/
 
-        //////////*  INDONESIAN  *//////////done
-        if (x === '5') {
-            document.getElementById('tagline').innerHTML = "Look no further.<br/>Keep going and change your<br/>life forever.";
+            /* FAQ */
+            document.getElementById('faqs-title').innerHTML = "Часто задаваемые вопросы";
+            document.getElementById('faq-tab-one').innerHTML = "Как купить билет?";
+            document.getElementById('faq-tab-one-par').innerHTML = "Жми здесь, чтобы купить билет на V-Malaysia 2018.";
+            document.getElementById('faq-tab-two').innerHTML = "Каковы условия платежа?";
+            document.getElementById('faq-tab-two-par').innerHTML = "В настоящее время оплата возможно кредитной или дебетовой картой (Visa и MasterCard).";
+            document.getElementById('faq-tab-three').innerHTML = "Что взять с собой?";
+            document.getElementById('faq-tab-three-par').innerHTML = "Едешь на V-Кон? Список из 5 важных вещей, которые нужно иметь при себе:";
+            document.getElementById('faq-tab-three-par-sub-one').innerHTML = "Идя на регистрацию, нужно иметь при себе одно (1) удостоверение личности и копию письма с подтверждением, которое было отправлено на электронную почту после покупки билета. ";
+            document.getElementById('faq-tab-three-par-sub-two').innerHTML = "Достаточная сумма денег на 5 дней, предназначенных для покупки еды, напитков, на транспортные расходы, на приобретение товаров V-Кон, сувениров и т.д. Прими к сведению, что наличные деньги должны быть либо в долларах США, либо в малайзийских ринггитах.";
+            document.getElementById('faq-tab-three-par-sub-three').innerHTML = "Сменная одежда на 5 дней. Желательно иметь при себе запасную рубашку/футболку или полотенце, так как это жаркое время года в Пинанге (Малайзия).";
+            document.getElementById('faq-tab-three-par-sub-four').innerHTML = "Обязательно захвати с собой фотоаппарат, который запечатлеет наиболее памятные моменты V-Кон, которые ты потом покажешь своим близким, а также проспектам по возвращению домой.";
+            document.getElementById('faq-tab-three-par-sub-five').innerHTML = "Не забудь захватить с собой ручку и блокнот, чтобы записать наиболее важную и ценную информацию, которую ты услышишь на сцене.";
+            document.getElementById('faq-tab-four').innerHTML = "Продолжится ли продажа билетов в день открытия конвенции?";
+            document.getElementById('faq-tab-four-par').innerHTML = "Да. Билеты можно будет оплатить наличными или кредитной картой.";
+            document.getElementById('faq-tab-five').innerHTML = "Доступен ли к покупке билет всего на один день участия?";
+            document.getElementById('faq-tab-five-par').innerHTML = "Нет. Эта 5-дневная программа подготовлена с расчётом на ежедневное посещение каждым из участников, чтобы получить, таким образом, полноценный и судьбоносный опыт. Это цельное и комплексное мероприятие с насыщенной программой станет невероятно полезным для твоего бизнеса.";
 
             /* WHO, WHAT, WHY*/
-            document.getElementById('about-title').innerHTML = "SIAPA, APA, KENAPA";
-            document.getElementById('about-what').innerHTML = "<b>Apa</b> itu V-Con?";
-            document.getElementById('about-what-p').innerHTML = "V-Con adalah suatu pengalaman yang sering disamakan dengan kata-kata yang luar biasa, magis, dan mengubah hidup. Diadakan di sembilan negara yang berbeda sejak konsepsinya pada tahun 2001, V-Convention adalah sebuah pertemuan tahunan yang diselenggarakan oleh The V, di mana Anda dapat mengharapkan serangkaian pidato dan sesi motivasi kelas dunia yang penting bagi para pelaku jaringan profesional. Pameran mutakhir juga disiapkan bagi mereka yang ingin mendapatkan barang dagangan eksklusif, tahu lebih banyak tentang produk, dan memanfaatkan promo khusus.";
-            document.getElementById('about-who').innerHTML = "<b>Siapa</b> yang datang ke V-Con?";
-            document.getElementById('about-who-p').innerHTML = "Ini terbuka untuk semua IR dari QNET yang ingin mendapatkan pemahaman yang lebih baik tentang perjalanan pemasaran jaringan mereka. Sampai saat ini, V-Con telah mengumpulkan ribuan peserta dari berbagai belahan dunia, dengan pemecahan rekor untuk jumlah terbesar.";
-            document.getElementById('about-why').innerHTML = "<b>Kenapa</b> kita perlu berada di V-Con?";
-            document.getElementById('about-why-p').innerHTML = "Sebagai mitra yang akan bersama Anda disepanjang perjalanan pemasaran jaringan Anda, The V bertujuan untuk memaksimalkan konvensi 5 hari ini untuk membantu Anda menegaskan tujuan akhir Anda untuk memperoleh kebebasan finansial. Apakah itu Anda baru saja mendaftar atau telah berkecimpung dalam bisnis ini selama beberapa tahun, Anda tidak memiliki keputusan yang lebih baik selain pulang ke V-Con dan menyadari potensi tak terbatas Anda untuk kejayaan.";
+            document.getElementById('about-title').innerHTML = "КТО,  ЧТО, ПОЧЕМУ";
+            document.getElementById('about-what').innerHTML = "<b>ЧТО</b> такое  V-Con?";
+            document.getElementById('about-what-p').innerHTML = "V-Con - это опыт, о котором зачастую отзываются такими словами, как невероятный, волшебный и меняющий жизнь. V-Convention, состоявшаяся в девяти разных странах с момента ее создания в 2001 году, является грандиозной ежегодной встречей нетворкеров, организованной The V, где вас ждут серии мотивационных выступлений и тренингов мирового уровня, которые так необходимы для профессиональных нетворкеров. В месте проведения конвенции также обустраиваются выставки, ориентированные на тех, кто желает приобрести эксклюзивные товары, узнать больше информации о продуктах и воспользоваться специальными промо-акциями.";
+            document.getElementById('about-who').innerHTML = "КТО</b> участвует в V-Con?";
+            document.getElementById('about-who-p').innerHTML = "Участвовать в мероприятии могут все IR QNET, желающие лучше познать свое путешествие в сетевом маркетинге. На сегодняшний день V-Con собрала тысячи участников из разных уголков мира с рекордным числом участников.";
+            document.getElementById('about-why').innerHTML = "<b>ПОЧЕМУ </b> нужно быть на V-Con?";
+            document.getElementById('about-why-p').innerHTML = "Будучи партнером, который будет рядом с вами во время вашего пути в сетевом маркетинге, The V стремится сделать ваш опыт участия в пятидневной конвенции максимально полезным, и помочь вам заявить о своей главной цели - обретение финансовой свободы. Если вы только что зарегистрировались или в бизнесе вы уже несколько лет, невозможно принять более актуальное решение, кроме как вернуться на V-Con и реализовать свой безграничный потенциал величия.";
 
+        } /*END OF IF*/
+
+        //////////*  INDONESIAN  *//////////done 
+        if (x === '5') {
+            document.getElementById('tagline').innerHTML = "Look no further.<br/>Keep going and change your<br/>life forever.";
+            document.getElementById('switch_lang').innerHTML = "BELI TIKET";
 
             /* HISTORY **/
             document.getElementById('history-title').innerHTML = "V-CON MELALUI SEJARAH";
@@ -589,7 +589,7 @@ $(document).ready(function() {
 
             /* Call-to-Action */
             document.getElementById('cta-title').innerHTML = "KITA ADALAH SATU";
-            document.getElementById('cta-par').innerHTML = "Kenali keluarga ini. Memasuki rumah kita. Ikuti panggilan. Jika Anda harus membuat satu keputusan besar. Pesan tiket V-Malaysia 2018 anda di sini!";
+            document.getElementById('cta-par').innerHTML = "Kenali keluarga ini. Memasuki rumah kita. Ikuti panggilan. Jika Anda harus membuat satu keputusan besar hari ini, biarkan ini menjadi THE ONE. Pesan tiket V-Malaysia 2018 anda di sini!";
 
 
             /* ROOM RESERVATION */
@@ -604,6 +604,15 @@ $(document).ready(function() {
 
             /* INSTAGRAM POSTS */
             document.getElementById('ig-dock-title').innerHTML = "THE # VCON18 MAGIC MENGAMBIL ALIH DUNIA";
+
+            /* CONTACT US */
+            document.getElementById('contact-us-title').innerHTML = "HUBUNGI KAMI";
+            document.getElementById('contact-us-par-one').innerHTML = "Jika Anda mengalami masalah dalam mengakses situs kami, atau Anda memiliki pertanyaan lebih lanjut yang tidak tersedia di halaman FAQ kami, silakan hubungi kami melalui alamat email berikut.<br/><br/><b>Dukungan teknis</b>: vbox@the-v.net <br/><b>Konten dan Kepentingan Penerjemahan</b>: vcomm@the-v.net";
+            document.getElementById('contact-us-par-two').innerHTML = "<b>Untuk pertanyaan:</b><br/>Mr. Vijiyar Thevan <br/>vijiyar.thevan@the-v.net <br/>+601 2209 3793 <br/><br/>Ms. Kauri Subramaniam <br/>kauri.s@the-v.net <br/>+603 7965 8299";
+
+            /* FOLLOW US */
+            document.getElementById('follow-us-title').innerHTML = "IKUTI KAMI!";
+            document.getElementById('follow-us-par').innerHTML = "SUKAI. TANDAI. BAGIKAN.";
 
             /* FAQ **/
             document.getElementById('faqs-title').innerHTML = "Pertanyaan yang Sering Diajukan";
@@ -622,17 +631,17 @@ $(document).ready(function() {
             document.getElementById('faq-tab-four').innerHTML = "Akankah ada tiket untuk dijual di hari acara itu?";
             document.getElementById('faq-tab-four-par').innerHTML = "Ada. Hanya transaksi yang dilakukan dengan uang tunai dan kartu kredit akan diakomodasi.";
             document.getElementById('faq-tab-five').innerHTML = "Akankah ada tiket acara satu hari yang tersedia?";
-            document.getElementById('faq-tab-five').innerHTML = "Tidak. Program 5 hari yang kami siapkan untuk Anda adalah sesuatu yang harus dihadiri dari Hari ke 1 sampai 5 untuk pengalaman mengubah hidup yang lengkap. Ini adalah acara yang saling berhubungan yang luas dan dilengkapi dengan paket aktivitas penuh aksi yang sangat penting untuk bisnis Anda.";
+            document.getElementById('faq-tab-five-par').innerHTML = "Tidak. Program 5 hari yang kami siapkan untuk Anda adalah sesuatu yang harus dihadiri dari Hari ke 1 sampai 5 untuk pengalaman mengubah hidup yang lengkap. Ini adalah acara yang saling berhubungan yang luas dan dilengkapi dengan paket aktivitas penuh aksi yang sangat penting untuk bisnis Anda.";
 
+            /* WHO, WHAT, WHY*/
+            document.getElementById('about-title').innerHTML = "SIAPA, APA, KENAPA";
+            document.getElementById('about-what').innerHTML = "<b>Apa</b> itu V-Con?";
+            document.getElementById('about-what-p').innerHTML = "V-Con adalah suatu pengalaman yang sering disamakan dengan kata-kata yang luar biasa, magis, dan mengubah hidup. Diadakan di sembilan negara yang berbeda sejak konsepsinya pada tahun 2001, V-Convention adalah sebuah pertemuan tahunan yang diselenggarakan oleh The V, di mana Anda dapat mengharapkan serangkaian pidato dan sesi motivasi kelas dunia yang penting bagi para pelaku jaringan profesional. Pameran mutakhir juga disiapkan bagi mereka yang ingin mendapatkan barang dagangan eksklusif, tahu lebih banyak tentang produk, dan memanfaatkan promo khusus.";
+            document.getElementById('about-who').innerHTML = "<b>Siapa</b> yang datang ke V-Con?";
+            document.getElementById('about-who-p').innerHTML = "Ini terbuka untuk semua IR dari QNET yang ingin mendapatkan pemahaman yang lebih baik tentang perjalanan pemasaran jaringan mereka. Sampai saat ini, V-Con telah mengumpulkan ribuan peserta dari berbagai belahan dunia, dengan pemecahan rekor untuk jumlah terbesar.";
+            document.getElementById('about-why').innerHTML = "<b>Kenapa</b> kita perlu berada di V-Con?";
+            document.getElementById('about-why-p').innerHTML = "Sebagai mitra yang akan bersama Anda disepanjang perjalanan pemasaran jaringan Anda, The V bertujuan untuk memaksimalkan konvensi 5 hari ini untuk membantu Anda menegaskan tujuan akhir Anda untuk memperoleh kebebasan finansial. Apakah itu Anda baru saja mendaftar atau telah berkecimpung dalam bisnis ini selama beberapa tahun, Anda tidak memiliki keputusan yang lebih baik selain pulang ke V-Con dan menyadari potensi tak terbatas Anda untuk kejayaan.";
 
-            /* CONTACT US */
-            document.getElementById('contact-us-title').innerHTML = "HUBUNGI KAMI";
-            document.getElementById('contact-us-par-one').innerHTML = "Jika Anda mengalami masalah dalam mengakses situs kami, atau Anda memiliki pertanyaan lebih lanjut yang tidak tersedia di halaman FAQ kami, silakan hubungi kami melalui alamat email berikut.<br/><br/><b>Dukungan teknis</b>: vbox@the-v.net <br/><b>Konten dan Kepentingan Penerjemahan</b>: vcomm@the-v.net";
-            document.getElementById('contact-us-par-two').innerHTML = "<b>Untuk pertanyaan:</b><br/>Mr. Vijiyar Thevan <br/>vijiyar.thevan@the-v.net <br/>+601 2209 3793 <br/><br/>Ms. Kauri Subramaniam <br/>kauri.s@the-v.net <br/>+603 7965 8299";
-
-            /* FOLLOW US */
-            document.getElementById('follow-us-title').innerHTML = "IKUTI KAMI!";
-            document.getElementById('follow-us-par').innerHTML = "SUKAI. TANDAI. BAGIKAN.";
         } /*END OF IF*/
 
 
