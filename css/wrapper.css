@@ -20,7 +20,7 @@ header{
     background-color: white;
     background-image: url('../assets/png/hero-gradient.png');
     background-attachment: fixed;
-    background-size: auto;
+    background-size: cover;
     background-repeat: no-repeat;
     box-sizing: border-box;
 }
