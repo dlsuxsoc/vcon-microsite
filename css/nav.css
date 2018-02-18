@@ -22,7 +22,8 @@ nav.sticky{
     box-sizing: border-box;
     top: -17em;
     background-color: rgba(0, 0, 0, 0.8);
-    padding: 0 10% !important;
+    padding: 0 10%;
+    z-index: 999;
 
     transition: ease 0.3s all;
     -webkit-transition: ease 0.3s all;
@@ -125,4 +126,8 @@ nav.underline ul li.active{
 nav.underline ul li:hover{
     color: var(--nav-theme-color);
     border-bottom: 2px solid var(--nav-theme-color);
+}
+
+nav li.hamburger-icon{
+    display: none !important;
 }

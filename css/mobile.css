@@ -1,0 +1,154 @@
+@media only screen and (max-width: 966px) {
+
+    .aesthetics{
+        display: none;
+    }
+
+    /* default elements */
+    p{
+        font-size: 1em;
+    }
+
+    section{
+        padding: 90px 5% !important;
+    }
+
+    h1{
+        font-size: 2.5em !important;
+        margin: 0 !important;
+    }
+
+    h3{
+        font-size: 1.5em !important;
+    }
+
+    /* about section */
+    #about{
+        padding: 0 !important;
+    }
+
+    #about > div{
+        padding: 0;
+    }
+
+    #about > div > div > div{
+        margin: 0 0.8em !important;
+        width: 80% !important;
+    }
+
+    #about > div > div > div p,
+    #about > div > div > div h3{
+        text-align: left !important;
+    }
+
+    #about > div > div img{
+        width: 90% !important;
+        margin-bottom: 1.5em !important;
+    }
+
+    /* history section */
+    #history{
+        padding: 0 !important;
+    }
+
+    #history > div{
+        padding: 0 !important;
+    }
+
+    #history-title, #history-tagline{
+        padding: 0.5em 0 !important;
+    }
+
+    #history > div h3, #history > div p{
+        text-align: center !important;
+        padding: 0 !important;
+        margin: inherit 0 !important;
+        color: black;
+    }
+
+    /* call-to-action section */
+    #festive-logo{
+        width: 90% !important;
+    }
+
+    #cta-par{
+        margin: 1em 0 !important;
+    }
+
+    /* apollo section */
+    #room-reservation-title{
+        margin: 0 !important;
+        padding: 1em 0 !important;
+    }
+
+    #room-reservation-par{
+        margin: 0 !important;
+        padding: 0 10%;
+    }
+
+    /* news and updates section */
+    #news-and-updates-title{
+        margin: 0 !important;
+        text-align: center !important;
+        width: 100% !important;
+        padding: 0.5em 0 !important;
+    }
+
+    #news-and-updates-par{
+        padding: 0 !important;
+        width: 100% !important;
+    }
+
+    #ig-dock-title{
+        padding: 1em 0 !important;
+        padding-bottom: 1.5 !important;
+        width: 100% !important;
+        margin: 0 !important;
+    }
+
+    #ig-dock{
+        padding: 0 !important;
+    }
+
+    /* FAQs and contact us sections */
+    #faqs-title{
+        width: 100% !important;
+        margin: 0 !important;
+        padding: 1em 0 !important;
+    }
+
+    .tab-collapse{
+        box-sizing: border-box;
+        padding: 2em 0 !important;
+    }
+
+    .tab-collapse h3{
+        margin: 0 auto !important;
+        font-size: 0.9em !important;
+        text-align: center !important;
+    }
+
+    .tab-collapse p{
+        width: 100% !important;
+        margin: 1.5em 0 !important;
+        padding: 0 !important;
+        text-align: center !important;
+    }
+
+    .tab-collapse ol{
+        margin: 0.3em auto;
+        width: 80% !important;
+        color: white;
+    }
+
+    #contact-us-title{
+        width: 100% !important;
+        margin: 0 !important;
+        padding: 1em 0 !important;
+    }
+
+    #contact-us-par-one, #contact-us-par-two{
+        padding: 0 !important;
+        width: 100% !important;
+    }
+}
