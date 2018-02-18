@@ -9,15 +9,21 @@ $(document).ready(function(){
     var aboutWhoPosTop = $("#about-who-div").position().top - stickyNavHeight - 100;
     var aboutWhyPosTop = $("#about-why-div").position().top - stickyNavHeight - 100;
 
-    //history section variables
-    var historyPosTop = $("#history").position().top - stickyNavHeight - 100;
+    // faqs section variables
+    var faqsTitle = $("#faqs-title").position().top - stickyNavHeight - 200;
+    var faqsOne = $("#faq-one").position().top - stickyNavHeight - 200;
+    var faqsTwo = $("#faq-two").position().top - stickyNavHeight - 200;
+    var faqsThree = $("#faq-three").position().top - stickyNavHeight - 200;
+    var faqsFour = $("#faq-four").position().top - stickyNavHeight - 200;
+    var faqsFive = $("#faq-five").position().top - stickyNavHeight - 200;
 
     $(window).scroll(function(){
         previewAbout(aboutWhatPosTop, aboutWhoPosTop, aboutWhyPosTop);
-        previewHistory(historyPosTop);
+        previewFaqs(faqsTitle, faqsOne, faqsTwo, faqsThree, faqsFour, faqsFive);
     });
 });
 
+// preview function for the about section
 function previewAbout(aboutWhatPosTop, aboutWhoPosTop, aboutWhyPosTop){
     var windowScroll = $(this).scrollTop();
 
@@ -37,11 +43,32 @@ function previewAbout(aboutWhatPosTop, aboutWhoPosTop, aboutWhyPosTop){
     }
 }
 
-function previewHistory(historyPosTop){
+// preview function for the faqs section
+function previewFaqs(faqsTitle, faqsOne, faqsTwo, faqsThree, faqsFour, faqsFive){
     var windowScroll = $(this).scrollTop();
 
-    if(windowScroll >= historyPosTop){
-        $("#history").removeClass('invisible');
-        $("#history").addClass('show-visible');
+    if(windowScroll >= faqsOne){
+        $("#faq-one").removeClass('invisible');
+        $("#faq-one").addClass('show-visible');
+    }
+
+    if(windowScroll >= faqsTwo){
+        $("#faq-two").removeClass('invisible');
+        $("#faq-two").addClass('show-visible');
+    }
+
+    if(windowScroll >= faqsThree){
+        $("#faq-three").removeClass('invisible');
+        $("#faq-three").addClass('show-visible');
+    }
+
+    if(windowScroll >= faqsFour){
+        $("#faq-four").removeClass('invisible');
+        $("#faq-four").addClass('show-visible');
+    }
+
+    if(windowScroll >= faqsFive){
+        $("#faq-five").removeClass('invisible');
+        $("#faq-five").addClass('show-visible');
     }
 }

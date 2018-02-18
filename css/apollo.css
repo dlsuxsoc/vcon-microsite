@@ -2,26 +2,30 @@
     stylesheet for the room reservation section
 */
 
-#room-reservation {
-    padding-top: 320px;
-    padding-bottom: 220px;
+#room-reservation{
+    padding-top: 10em;
+    padding-bottom: 30em;
+    background-image: url('../assets/svg/asset-board_hands.svg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: bottom;
 }
 
 #room-reservation-title {
-    margin: 0 auto;
-    width: 60%;
+    margin: 0 20%;
     text-align: center;
     font-size: 3em;
     margin-bottom: 4%;
 }
 
 #room-reservation > p {
-    margin: 0 auto;
-    width: 45%;
+    margin: 0 20%;
     text-align: center;
 }
 
 #room-reservation > button {
     display: block;
     margin: 4% auto 0;
+    padding: 20px;
+    width: 50%;
 }
