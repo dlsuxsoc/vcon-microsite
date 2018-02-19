@@ -41,6 +41,7 @@
         <script src="js/jquery-3.2.1.min.js" type="text/javascript"></script>
         <script src="js/animate.js" type="text/javascript"></script>
         <script src="js/translate.js" type="text/javascript"></script>
+        <script src="js/translation.js" type="text/javascript"></script>
         <script src="js/scroll-parallax.js" type="text/javascript"></script>
         <script src="js/timeline.js" type="text/javascript"></script>
 
@@ -63,7 +64,7 @@
             </ul>
             <ul>
                 <li>
-                    <select class="white">
+                    <select id="chosen_lang_sticky" class="white">
                         <option value="0">English</option>
                         <option value="1">Arabic</option>
                         <option value="2">Turkish</option>
@@ -360,7 +361,7 @@
             </div>
 
             <!-- WE ARE ONE & BUY TICKETS CALL-TO-ACTION -->
-            <div id="call-to-action">
+            <div id="call-to-action" class="invisible">
                 <!-- Insert logo here -->
                 <img src="assets/svg/asset-board_festive-logo.svg" id="festive-logo" />
 
@@ -375,7 +376,7 @@
         </section>
 
         <!-- V-MALAYSIA 2018 JOURNEY -->
-        <section id="room-reservation">
+        <section id="room-reservation" class="invisible">
             <h1 id="room-reservation-title">COMPLETE YOUR V-MALAYSIA 2018 JOURNEY</h1>
             <p id="room-reservation-par">
                 Looking for hotel reservations and transportation transfers in Penang, Malaysia from 24 to 28 April for you and your team? Apollo got you covered!

@@ -5,24 +5,24 @@ $(document).ready(function(){
     var stickyNavHeight = $("#sticky-nav").outerHeight();
 
     //history section variables
-    var historyPosTop = $("#history").position().top - stickyNavHeight - 100;
-    var vcon2001 = $("#vcon-2001").position().top - stickyNavHeight - 100;
-    var vcon2002 = $("#vcon-2002").position().top - stickyNavHeight - 100;
-    var vcon2003 = $("#vcon-2003").position().top - stickyNavHeight - 100;
-    var vcon2004 = $("#vcon-2004").position().top - stickyNavHeight - 100;
-    var vcon2005 = $("#vcon-2005").position().top - stickyNavHeight - 100;
-    var vcon2006 = $("#vcon-2006").position().top - stickyNavHeight - 100;
-    var vcon2007 = $("#vcon-2007").position().top - stickyNavHeight - 100;
-    var vcon2008 = $("#vcon-2008").position().top - stickyNavHeight - 100;
-    var vcon2009 = $("#vcon-2009").position().top - stickyNavHeight - 100;
-    var vcon2010 = $("#vcon-2010").position().top - stickyNavHeight - 100;
-    var vcon2011 = $("#vcon-2011").position().top - stickyNavHeight - 100;
-    var vcon2012 = $("#vcon-2012").position().top - stickyNavHeight - 100;
-    var vcon2013 = $("#vcon-2013").position().top - stickyNavHeight - 100;
-    var vcon2014 = $("#vcon-2014").position().top - stickyNavHeight - 100;
-    var vcon2015 = $("#vcon-2015").position().top - stickyNavHeight - 100;
-    var vcon2016 = $("#vcon-2016").position().top - stickyNavHeight - 100;
-    var vcon2017 = $("#vcon-2017").position().top - stickyNavHeight - 100;
+    var historyPosTop = $("#history").offset().top - stickyNavHeight - 100;
+    var vcon2001 = $("#vcon-2001").offset().top - stickyNavHeight - 100;
+    var vcon2002 = $("#vcon-2002").offset().top - stickyNavHeight - 100;
+    var vcon2003 = $("#vcon-2003").offset().top - stickyNavHeight - 100;
+    var vcon2004 = $("#vcon-2004").offset().top - stickyNavHeight - 100;
+    var vcon2005 = $("#vcon-2005").offset().top - stickyNavHeight - 100;
+    var vcon2006 = $("#vcon-2006").offset().top - stickyNavHeight - 100;
+    var vcon2007 = $("#vcon-2007").offset().top - stickyNavHeight - 100;
+    var vcon2008 = $("#vcon-2008").offset().top - stickyNavHeight - 100;
+    var vcon2009 = $("#vcon-2009").offset().top - stickyNavHeight - 100;
+    var vcon2010 = $("#vcon-2010").offset().top - stickyNavHeight - 100;
+    var vcon2011 = $("#vcon-2011").offset().top - stickyNavHeight - 100;
+    var vcon2012 = $("#vcon-2012").offset().top - stickyNavHeight - 100;
+    var vcon2013 = $("#vcon-2013").offset().top - stickyNavHeight - 100;
+    var vcon2014 = $("#vcon-2014").offset().top - stickyNavHeight - 100;
+    var vcon2015 = $("#vcon-2015").offset().top - stickyNavHeight - 100;
+    var vcon2016 = $("#vcon-2016").offset().top - stickyNavHeight - 100;
+    var vcon2017 = $("#vcon-2017").offset().top - stickyNavHeight - 100;
 
     $(window).scroll(function(){
         var windowScroll = $(this).scrollTop();

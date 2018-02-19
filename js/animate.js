@@ -5,21 +5,27 @@ $(document).ready(function(){
     var stickyNavHeight = $("#sticky-nav").outerHeight();
 
     // about section variables
-    var aboutWhatPosTop = $("#about-what-div").position().top - stickyNavHeight - 100;
-    var aboutWhoPosTop = $("#about-who-div").position().top - stickyNavHeight - 100;
-    var aboutWhyPosTop = $("#about-why-div").position().top - stickyNavHeight - 100;
+    var aboutWhatPosTop = $("#about-what-div").offset().top - stickyNavHeight - 100;
+    var aboutWhoPosTop = $("#about-who-div").offset().top - stickyNavHeight - 100;
+    var aboutWhyPosTop = $("#about-why-div").offset().top - stickyNavHeight - 100;
 
     // faqs section variables
-    var faqsTitle = $("#faqs-title").position().top - stickyNavHeight - 200;
-    var faqsOne = $("#faq-one").position().top - stickyNavHeight - 200;
-    var faqsTwo = $("#faq-two").position().top - stickyNavHeight - 200;
-    var faqsThree = $("#faq-three").position().top - stickyNavHeight - 200;
-    var faqsFour = $("#faq-four").position().top - stickyNavHeight - 200;
-    var faqsFive = $("#faq-five").position().top - stickyNavHeight - 200;
+    var faqsTitle = $("#faqs-title").offset().top - stickyNavHeight - 200;
+    var faqsOne = $("#faq-one").offset().top - stickyNavHeight - 200;
+    var faqsTwo = $("#faq-two").offset().top - stickyNavHeight - 200;
+    var faqsThree = $("#faq-three").offset().top - stickyNavHeight - 200;
+    var faqsFour = $("#faq-four").offset().top - stickyNavHeight - 200;
+    var faqsFive = $("#faq-five").offset().top - stickyNavHeight - 200;
+
+    //we are one and apollo variables
+    var ctaPos = $("#call-to-action").offset().top - stickyNavHeight - 200;
+    var apolloPos = $("#room-reservation").offset().top - stickyNavHeight - 200;
 
     $(window).scroll(function(){
         previewAbout(aboutWhatPosTop, aboutWhoPosTop, aboutWhyPosTop);
         previewFaqs(faqsTitle, faqsOne, faqsTwo, faqsThree, faqsFour, faqsFive);
+        previewCTA(ctaPos);
+        previewApollo(apolloPos);
     });
 });
 
@@ -47,6 +53,11 @@ function previewAbout(aboutWhatPosTop, aboutWhoPosTop, aboutWhyPosTop){
 function previewFaqs(faqsTitle, faqsOne, faqsTwo, faqsThree, faqsFour, faqsFive){
     var windowScroll = $(this).scrollTop();
 
+    if(windowScroll >= faqsTitle){
+        $("#faqs-title").removeClass('invisible');
+        $("#faqs-title").addClass('show-visible');
+    }
+
     if(windowScroll >= faqsOne){
         $("#faq-one").removeClass('invisible');
         $("#faq-one").addClass('show-visible');
@@ -70,5 +81,24 @@ function previewFaqs(faqsTitle, faqsOne, faqsTwo, faqsThree, faqsFour, faqsFive)
     if(windowScroll >= faqsFive){
         $("#faq-five").removeClass('invisible');
         $("#faq-five").addClass('show-visible');
+    }
+}
+
+//preview function for the call to action section
+function previewCTA(ctaPos){
+    var windowScroll = $(this).scrollTop();
+
+    if(windowScroll >= ctaPos){
+        $("#call-to-action").removeClass('invisible');
+        $("#call-to-action").addClass('show-visible');
+    }
+}
+
+function previewApollo(apolloPos){
+    var windowScroll = $(this).scrollTop();
+
+    if(windowScroll >= apolloPos){
+        $("#room-reservation").removeClass('invisible');
+        $("#room-reservation").addClass('show-visible');
     }
 }
