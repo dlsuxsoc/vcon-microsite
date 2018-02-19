@@ -12,7 +12,7 @@ $(document).ready(function(){
     });
 
     var stickyHeight = $('#sticky-nav').outerHeight();
-    $('nav ul li').click(function(e){
+    $('nav div.nav-items ul li').click(function(e){
         targetSection = $(this).attr('href');
         $('body, html').animate({
             scrollTop: $(targetSection).offset().top - stickyHeight + 1
